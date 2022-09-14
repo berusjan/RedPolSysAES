@@ -1,0 +1,318 @@
+MERENI VYPOCTU REF AES
+AES
+
+SR(n,4,4,8) - 128bit klic:
+==========================================
+SR(1,4,4,8)
+=======================
+ --num 8
+===
+ --num 8, pok 10 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:00:37
+==
+psets0
+Variables: 128
+Polynomials: 1024
+Avg length of polys: 599
+Avg length of monomials: 4
+===
+ --num 8, pok 11 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:00:37
+==
+psets0
+Variables: 128
+Polynomials: 1024
+Avg length of polys: 599
+Avg length of monomials: 4
+===
+ --num 8, pok 12 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:00:35
+==
+psets0
+Variables: 128
+Polynomials: 1024
+Avg length of polys: 598
+Avg length of monomials: 4
+===
+ --num 8, pok 13 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:00:35
+==
+psets0
+Variables: 128
+Polynomials: 1024
+Avg length of polys: 598
+Avg length of monomials: 4
+===
+ --num 8, pok 14 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:00:35
+==
+psets0
+Variables: 128
+Polynomials: 1024
+Avg length of polys: 599
+Avg length of monomials: 4
+=======================
+ --num 16
+===
+ --num 16, pok 10 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:00:41
+==
+psets0
+Variables: 128
+Polynomials: 2048
+Avg length of polys: 598
+Avg length of monomials: 4
+===
+ --num 16, pok 11 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:00:41
+==
+psets0
+Variables: 128
+Polynomials: 2048
+Avg length of polys: 599
+Avg length of monomials: 4
+===
+ --num 16, pok 12 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:00:41
+==
+psets0
+Variables: 128
+Polynomials: 2048
+Avg length of polys: 598
+Avg length of monomials: 4
+===
+ --num 16, pok 13 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:00:41
+==
+psets0
+Variables: 128
+Polynomials: 2048
+Avg length of polys: 599
+Avg length of monomials: 4
+===
+ --num 16, pok 14 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:00:41
+==
+psets0
+Variables: 128
+Polynomials: 2048
+Avg length of polys: 599
+Avg length of monomials: 4
+=======================
+ --num 32
+===
+ --num 32, pok 10 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:01:26
+==
+psets0
+Variables: 128
+Polynomials: 4096
+Avg length of polys: 599
+Avg length of monomials: 4
+===
+ --num 32, pok 11 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:01:25
+==
+psets0
+Variables: 128
+Polynomials: 4096
+Avg length of polys: 598
+Avg length of monomials: 4
+===
+ --num 32, pok 12 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:01:25
+==
+psets0
+Variables: 128
+Polynomials: 4096
+Avg length of polys: 598
+Avg length of monomials: 4
+===
+ --num 32, pok 13 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:01:25
+==
+psets0
+Variables: 128
+Polynomials: 4096
+Avg length of polys: 598
+Avg length of monomials: 4
+===
+ --num 32, pok 14 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:01:25
+==
+psets0
+Variables: 128
+Polynomials: 4096
+Avg length of polys: 599
+Avg length of monomials: 4
+=======================
+ --num 48
+===
+ --num 48, pok 10 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:01:43
+==
+psets0
+Variables: 128
+Polynomials: 6144
+Avg length of polys: 599
+Avg length of monomials: 4
+===
+ --num 48, pok 11 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:01:42
+==
+psets0
+Variables: 128
+Polynomials: 6144
+Avg length of polys: 599
+Avg length of monomials: 4
+===
+ --num 48, pok 12 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:01:43
+==
+psets0
+Variables: 128
+Polynomials: 6144
+Avg length of polys: 599
+Avg length of monomials: 4
+===
+ --num 48, pok 13 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:01:49
+==
+psets0
+Variables: 128
+Polynomials: 6144
+Avg length of polys: 599
+Avg length of monomials: 4
+===
+ --num 48, pok 14 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:01:46
+==
+psets0
+Variables: 128
+Polynomials: 6144
+Avg length of polys: 599
+Avg length of monomials: 4
+=======================
+ --num 64
+===
+ --num 64, pok 10 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:02:30
+==
+psets0
+Variables: 128
+Polynomials: 8192
+Avg length of polys: 599
+Avg length of monomials: 4
+===
+ --num 64, pok 11 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:02:33
+==
+psets0
+Variables: 128
+Polynomials: 8192
+Avg length of polys: 599
+Avg length of monomials: 4
+===
+ --num 64, pok 12 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:02:37
+==
+psets0
+Variables: 128
+Polynomials: 8192
+Avg length of polys: 598
+Avg length of monomials: 4
+===
+ --num 64, pok 13 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:02:25
+==
+psets0
+Variables: 128
+Polynomials: 8192
+Avg length of polys: 599
+Avg length of monomials: 4
+===
+ --num 64, pok 14 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:02:25
+==
+psets0
+Variables: 128
+Polynomials: 8192
+Avg length of polys: 599
+Avg length of monomials: 4
+=======================
+ --num 96
+===
+ --num 96, pok 10 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:03:31
+==
+psets0
+Variables: 128
+Polynomials: 12288
+Avg length of polys: 599
+Avg length of monomials: 4
+===
+ --num 96, pok 11 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:03:26
+==
+psets0
+Variables: 128
+Polynomials: 12288
+Avg length of polys: 599
+Avg length of monomials: 4
+===
+ --num 96, pok 12 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:03:29
+==
+psets0
+Variables: 128
+Polynomials: 12288
+Avg length of polys: 598
+Avg length of monomials: 4
+===
+ --num 96, pok 13 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:03:29
+==
+psets0
+Variables: 128
+Polynomials: 12288
+Avg length of polys: 599
+Avg length of monomials: 4
+===
+ --num 96, pok 14 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:03:29
+==
+psets0
+Variables: 128
+Polynomials: 12288
+Avg length of polys: 599
+Avg length of monomials: 4

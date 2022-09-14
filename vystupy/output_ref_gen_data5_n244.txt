@@ -1,0 +1,4780 @@
+GENEROVANI DAT PRO VYPOCET POLYNOMU 
++referenci reseni
+
+SR(1,2,4,4) - 32bit klic:
+==========================================
+SR(1,2,4,4)
+=======================
+ --num 2
+===
+ --num 2, pok 10
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:01
+Variables: 32
+Polynomials: 64
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 2, pok 11
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:01
+Variables: 32
+Polynomials: 64
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 2, pok 12
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:01
+Variables: 32
+Polynomials: 64
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 2, pok 13
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:01
+Variables: 32
+Polynomials: 64
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 2, pok 14
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:01
+Variables: 32
+Polynomials: 64
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 2, pok 15
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:01
+Variables: 32
+Polynomials: 64
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 2, pok 16
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:01
+Variables: 32
+Polynomials: 64
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 2, pok 17
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:01
+Variables: 32
+Polynomials: 64
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 2, pok 18
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:01
+Variables: 32
+Polynomials: 64
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 2, pok 19
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:01
+Variables: 32
+Polynomials: 64
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 2, pok 20
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:01
+Variables: 32
+Polynomials: 64
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 2, pok 21
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:01
+Variables: 32
+Polynomials: 64
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 2, pok 22
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:01
+Variables: 32
+Polynomials: 64
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 2, pok 23
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:01
+Variables: 32
+Polynomials: 64
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 2, pok 24
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:01
+Variables: 32
+Polynomials: 64
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 2, pok 25
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:01
+Variables: 32
+Polynomials: 64
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 2, pok 26
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:01
+Variables: 32
+Polynomials: 64
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 2, pok 27
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:01
+Variables: 32
+Polynomials: 64
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 2, pok 28
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:01
+Variables: 32
+Polynomials: 64
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 2, pok 29
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:01
+Variables: 32
+Polynomials: 64
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+=======================
+ --num 4
+===
+ --num 4, pok 10
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 128
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 4, pok 11
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 128
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 4, pok 12
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 128
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 4, pok 13
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 128
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 4, pok 14
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 128
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 4, pok 15
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 128
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 4, pok 16
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 128
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 4, pok 17
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 128
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 4, pok 18
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 128
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 4, pok 19
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 128
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 4, pok 20
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 128
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 4, pok 21
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 128
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 4, pok 22
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 128
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 4, pok 23
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 128
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 4, pok 24
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 128
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 4, pok 25
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 128
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 4, pok 26
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 128
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 4, pok 27
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 128
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 4, pok 28
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 128
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+===
+ --num 4, pok 29
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 128
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:00
+=======================
+ --num 8
+===
+ --num 8, pok 10
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 256
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 8, pok 11
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 256
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 8, pok 12
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 256
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 8, pok 13
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 256
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 8, pok 14
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 256
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 8, pok 15
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 256
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 8, pok 16
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 256
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 8, pok 17
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 256
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 8, pok 18
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 256
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 8, pok 19
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 256
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 8, pok 20
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 256
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 8, pok 21
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 256
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 8, pok 22
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 256
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 8, pok 23
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 256
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 8, pok 24
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 256
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 8, pok 25
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 256
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 8, pok 26
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 256
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 8, pok 27
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 256
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 8, pok 28
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 256
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 8, pok 29
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 256
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+=======================
+ --num 12
+===
+ --num 12, pok 10
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 384
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 12, pok 11
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 384
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 12, pok 12
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 384
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 12, pok 13
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 384
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 12, pok 14
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 384
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 12, pok 15
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 384
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 12, pok 16
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 384
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 12, pok 17
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 384
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 12, pok 18
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 384
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:02
+===
+ --num 12, pok 19
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 384
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:02
+===
+ --num 12, pok 20
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 384
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:02
+===
+ --num 12, pok 21
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 384
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 12, pok 22
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 384
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 12, pok 23
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 384
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 12, pok 24
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 384
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 12, pok 25
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 384
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 12, pok 26
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 384
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:02
+===
+ --num 12, pok 27
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 384
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 12, pok 28
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 384
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+===
+ --num 12, pok 29
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:02
+Variables: 32
+Polynomials: 384
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:01
+=======================
+ --num 16
+===
+ --num 16, pok 10
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 512
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:02
+===
+ --num 16, pok 11
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 512
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:02
+===
+ --num 16, pok 12
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 512
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:02
+===
+ --num 16, pok 13
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 512
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:02
+===
+ --num 16, pok 14
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 512
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:02
+===
+ --num 16, pok 15
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 512
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:02
+===
+ --num 16, pok 16
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 512
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:02
+===
+ --num 16, pok 17
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 512
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:02
+===
+ --num 16, pok 18
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 512
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:02
+===
+ --num 16, pok 19
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 512
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:02
+===
+ --num 16, pok 20
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 512
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:02
+===
+ --num 16, pok 21
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 512
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:02
+===
+ --num 16, pok 22
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 512
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:02
+===
+ --num 16, pok 23
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 512
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:02
+===
+ --num 16, pok 24
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 512
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:02
+===
+ --num 16, pok 25
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 512
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:02
+===
+ --num 16, pok 26
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 512
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:02
+===
+ --num 16, pok 27
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 512
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:02
+===
+ --num 16, pok 28
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 512
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:02
+===
+ --num 16, pok 29
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 512
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:02
+=======================
+ --num 32
+===
+ --num 32, pok 10 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 32, pok 11 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 32, pok 12 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 32, pok 13 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 32, pok 14 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 32, pok 15 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 32, pok 16 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 32, pok 17 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 32, pok 18 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 32, pok 19 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 32, pok 20 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:07
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 32, pok 21 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 32, pok 22 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 32, pok 23 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 32, pok 24 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 32, pok 25 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 32, pok 26 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 32, pok 27 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 32, pok 28 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 32, pok 29 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 24
+Avg length of monomials: 2
+=======================
+ --num 48
+===
+ --num 48, pok 10 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 48, pok 11 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 48, pok 12 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 48, pok 13 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 48, pok 14 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 48, pok 15 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:09
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 48, pok 16 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 48, pok 17 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 48, pok 18 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 48, pok 19 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 48, pok 20 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 48, pok 21 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 48, pok 22 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 48, pok 23 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 48, pok 24 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 48, pok 25 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 48, pok 26 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:09
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 48, pok 27 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 48, pok 28 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 48, pok 29 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 24
+Avg length of monomials: 2
+=======================
+ --num 64
+===
+ --num 64, pok 10 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:11
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 64, pok 11 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:11
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 64, pok 12 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:11
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 64, pok 13 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:11
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 64, pok 14 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:11
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 64, pok 15 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:11
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 64, pok 16 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:11
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 64, pok 17 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:11
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 64, pok 18 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:12
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 64, pok 19 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:11
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 64, pok 20 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:12
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 64, pok 21 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:12
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 64, pok 22 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:12
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 64, pok 23 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:11
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 64, pok 24 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:11
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 64, pok 25 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:11
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 64, pok 26 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:11
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 64, pok 27 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:11
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 64, pok 28 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:11
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 64, pok 29 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:11
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 23
+Avg length of monomials: 2
+=======================
+ --num 96
+===
+ --num 96, pok 10 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:17
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 96, pok 11 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:17
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 96, pok 12 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:17
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 96, pok 13 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:17
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 96, pok 14 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:17
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 96, pok 15 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:17
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 96, pok 16 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:17
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 96, pok 17 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:17
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 96, pok 18 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:17
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 96, pok 19 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:17
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 96, pok 20 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:17
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 96, pok 21 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:17
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 96, pok 22 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:17
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 96, pok 23 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:17
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 96, pok 24 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:17
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 96, pok 25 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:18
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 96, pok 26 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:17
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 96, pok 27 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:17
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 96, pok 28 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:17
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 96, pok 29 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:17
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 24
+Avg length of monomials: 2
+=======================
+ --num 128
+===
+ --num 128, pok 10
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:23
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:23
+===
+ --num 128, pok 11
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:24
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:23
+===
+ --num 128, pok 12
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:23
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:22
+===
+ --num 128, pok 13
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:24
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:23
+===
+ --num 128, pok 14
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:24
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:23
+===
+ --num 128, pok 15
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:23
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:22
+===
+ --num 128, pok 16
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:24
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:21
+===
+ --num 128, pok 17
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:24
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:21
+===
+ --num 128, pok 18
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:24
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:22
+===
+ --num 128, pok 19
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:23
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:23
+===
+ --num 128, pok 20
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:23
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:22
+===
+ --num 128, pok 21
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:24
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:23
+===
+ --num 128, pok 22
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:23
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:23
+===
+ --num 128, pok 23
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:23
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:23
+===
+ --num 128, pok 24
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:24
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:22
+===
+ --num 128, pok 25
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:23
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:21
+===
+ --num 128, pok 26
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:24
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:22
+===
+ --num 128, pok 27
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:23
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:21
+===
+ --num 128, pok 28
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:23
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 24
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:21
+===
+ --num 128, pok 29
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:24
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 23
+Avg length of monomials: 2
+Solver: F4
+magma old
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 33 MB.
+Time of "keys": 0:00:22
+=======================
+ --num 256
+===
+ --num 256, pok 10 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:46
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 256, pok 11 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:47
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 256, pok 12 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:47
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 256, pok 13 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:46
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 256, pok 14 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:48
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 256, pok 15 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:47
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 256, pok 16 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:47
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 256, pok 17 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:47
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 256, pok 18 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:47
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 256, pok 19 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:46
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 256, pok 20 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:46
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 256, pok 21 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:46
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 256, pok 22 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:47
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 256, pok 23 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:46
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 256, pok 24 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:47
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 256, pok 25 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:46
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 256, pok 26 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:47
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 256, pok 27 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:48
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 256, pok 28 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:46
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 256, pok 29 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:00:46
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 23
+Avg length of monomials: 2
+=======================
+ --num 384
+===
+ --num 384, pok 10 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:10
+Variables: 32
+Polynomials: 12288
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 384, pok 11 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:10
+Variables: 32
+Polynomials: 12288
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 384, pok 12 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:11
+Variables: 32
+Polynomials: 12288
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 384, pok 13 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:10
+Variables: 32
+Polynomials: 12288
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 384, pok 14 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:10
+Variables: 32
+Polynomials: 12288
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 384, pok 15 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:10
+Variables: 32
+Polynomials: 12288
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 384, pok 16 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:10
+Variables: 32
+Polynomials: 12288
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 384, pok 17 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:10
+Variables: 32
+Polynomials: 12288
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 384, pok 18 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:10
+Variables: 32
+Polynomials: 12288
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 384, pok 19 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:10
+Variables: 32
+Polynomials: 12288
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 384, pok 20 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:10
+Variables: 32
+Polynomials: 12288
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 384, pok 21 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:10
+Variables: 32
+Polynomials: 12288
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 384, pok 22 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:10
+Variables: 32
+Polynomials: 12288
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 384, pok 23 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:10
+Variables: 32
+Polynomials: 12288
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 384, pok 24 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:10
+Variables: 32
+Polynomials: 12288
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 384, pok 25 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:10
+Variables: 32
+Polynomials: 12288
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 384, pok 26 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:10
+Variables: 32
+Polynomials: 12288
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 384, pok 27 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:10
+Variables: 32
+Polynomials: 12288
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 384, pok 28 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:10
+Variables: 32
+Polynomials: 12288
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 384, pok 29 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:09
+Variables: 32
+Polynomials: 12288
+Avg length of polys: 24
+Avg length of monomials: 2
+=======================
+ --num 512
+===
+ --num 512, pok 10 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:34
+Variables: 32
+Polynomials: 16384
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 512, pok 11 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:34
+Variables: 32
+Polynomials: 16384
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 512, pok 12 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:33
+Variables: 32
+Polynomials: 16384
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 512, pok 13 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:34
+Variables: 32
+Polynomials: 16384
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 512, pok 14 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:34
+Variables: 32
+Polynomials: 16384
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 512, pok 15 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:34
+Variables: 32
+Polynomials: 16384
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 512, pok 16 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:35
+Variables: 32
+Polynomials: 16384
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 512, pok 17 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:34
+Variables: 32
+Polynomials: 16384
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 512, pok 18 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:35
+Variables: 32
+Polynomials: 16384
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 512, pok 19 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:34
+Variables: 32
+Polynomials: 16384
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 512, pok 20 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:34
+Variables: 32
+Polynomials: 16384
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 512, pok 21 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:34
+Variables: 32
+Polynomials: 16384
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 512, pok 22 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:35
+Variables: 32
+Polynomials: 16384
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 512, pok 23 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:35
+Variables: 32
+Polynomials: 16384
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 512, pok 24 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:34
+Variables: 32
+Polynomials: 16384
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 512, pok 25 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:34
+Variables: 32
+Polynomials: 16384
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 512, pok 26 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:34
+Variables: 32
+Polynomials: 16384
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 512, pok 27 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:34
+Variables: 32
+Polynomials: 16384
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 512, pok 28 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:34
+Variables: 32
+Polynomials: 16384
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 512, pok 29 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:01:36
+Variables: 32
+Polynomials: 16384
+Avg length of polys: 23
+Avg length of monomials: 2
+=======================
+ --num 1024
+===
+ --num 1024, pok 10 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:03:13
+Variables: 32
+Polynomials: 32768
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 1024, pok 11 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:03:13
+Variables: 32
+Polynomials: 32768
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 1024, pok 12 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:03:19
+Variables: 32
+Polynomials: 32768
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 1024, pok 13 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:03:13
+Variables: 32
+Polynomials: 32768
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 1024, pok 14 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:03:14
+Variables: 32
+Polynomials: 32768
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 1024, pok 15 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:03:13
+Variables: 32
+Polynomials: 32768
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 1024, pok 16 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:03:13
+Variables: 32
+Polynomials: 32768
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 1024, pok 17 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:03:13
+Variables: 32
+Polynomials: 32768
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 1024, pok 18 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:03:13
+Variables: 32
+Polynomials: 32768
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 1024, pok 19 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:03:13
+Variables: 32
+Polynomials: 32768
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 1024, pok 20 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:03:14
+Variables: 32
+Polynomials: 32768
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 1024, pok 21 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:03:19
+Variables: 32
+Polynomials: 32768
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 1024, pok 22 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:03:14
+Variables: 32
+Polynomials: 32768
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 1024, pok 23 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:03:14
+Variables: 32
+Polynomials: 32768
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 1024, pok 24 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:03:14
+Variables: 32
+Polynomials: 32768
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 1024, pok 25 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:03:13
+Variables: 32
+Polynomials: 32768
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 1024, pok 26 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:03:13
+Variables: 32
+Polynomials: 32768
+Avg length of polys: 24
+Avg length of monomials: 2
+===
+ --num 1024, pok 27 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:03:17
+Variables: 32
+Polynomials: 32768
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 1024, pok 28 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:03:15
+Variables: 32
+Polynomials: 32768
+Avg length of polys: 23
+Avg length of monomials: 2
+===
+ --num 1024, pok 29 --dry
+Cipher: SR(1,2,4,4)
+Time of "ps_key_vars": 0:03:12
+Variables: 32
+Polynomials: 32768
+Avg length of polys: 24
+Avg length of monomials: 2
+==========================================
+SR(2,2,4,4)
+=======================
+ --num 2
+===
+ --num 2, pok 10 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 64
+Avg length of polys: 6656
+Avg length of monomials: 5
+Solver: F4
+timeout pri --num 2, pok 10 data
+===
+ --num 2, pok 11 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 64
+Avg length of polys: 6723
+Avg length of monomials: 5
+===
+ --num 2, pok 12 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 64
+Avg length of polys: 6658
+Avg length of monomials: 5
+===
+ --num 2, pok 13 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 64
+Avg length of polys: 6700
+Avg length of monomials: 5
+===
+ --num 2, pok 14 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 64
+Avg length of polys: 6700
+Avg length of monomials: 5
+===
+ --num 2, pok 15 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 64
+Avg length of polys: 6719
+Avg length of monomials: 5
+===
+ --num 2, pok 16 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 64
+Avg length of polys: 6691
+Avg length of monomials: 5
+===
+ --num 2, pok 17 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 64
+Avg length of polys: 6719
+Avg length of monomials: 5
+===
+ --num 2, pok 18 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 64
+Avg length of polys: 6667
+Avg length of monomials: 5
+===
+ --num 2, pok 19 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 64
+Avg length of polys: 6724
+Avg length of monomials: 5
+===
+ --num 2, pok 20 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 64
+Avg length of polys: 6677
+Avg length of monomials: 5
+===
+ --num 2, pok 21 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 64
+Avg length of polys: 6753
+Avg length of monomials: 5
+===
+ --num 2, pok 22 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 64
+Avg length of polys: 6680
+Avg length of monomials: 5
+===
+ --num 2, pok 23 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 64
+Avg length of polys: 6690
+Avg length of monomials: 5
+===
+ --num 2, pok 24 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 64
+Avg length of polys: 6670
+Avg length of monomials: 5
+===
+ --num 2, pok 25 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 64
+Avg length of polys: 6665
+Avg length of monomials: 5
+===
+ --num 2, pok 26 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 64
+Avg length of polys: 6683
+Avg length of monomials: 5
+===
+ --num 2, pok 27 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 64
+Avg length of polys: 6662
+Avg length of monomials: 5
+===
+ --num 2, pok 28 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 64
+Avg length of polys: 6678
+Avg length of monomials: 5
+===
+ --num 2, pok 29 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:03
+Variables: 32
+Polynomials: 64
+Avg length of polys: 6660
+Avg length of monomials: 5
+=======================
+ --num 4
+===
+ --num 4, pok 10 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:04
+Variables: 32
+Polynomials: 128
+Avg length of polys: 6713
+Avg length of monomials: 5
+===
+ --num 4, pok 11 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:04
+Variables: 32
+Polynomials: 128
+Avg length of polys: 6705
+Avg length of monomials: 5
+===
+ --num 4, pok 12 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:04
+Variables: 32
+Polynomials: 128
+Avg length of polys: 6696
+Avg length of monomials: 5
+===
+ --num 4, pok 13 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:04
+Variables: 32
+Polynomials: 128
+Avg length of polys: 6725
+Avg length of monomials: 5
+===
+ --num 4, pok 14 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:04
+Variables: 32
+Polynomials: 128
+Avg length of polys: 6711
+Avg length of monomials: 5
+===
+ --num 4, pok 15 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:04
+Variables: 32
+Polynomials: 128
+Avg length of polys: 6693
+Avg length of monomials: 5
+===
+ --num 4, pok 16 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:04
+Variables: 32
+Polynomials: 128
+Avg length of polys: 6660
+Avg length of monomials: 5
+===
+ --num 4, pok 17 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:04
+Variables: 32
+Polynomials: 128
+Avg length of polys: 6674
+Avg length of monomials: 5
+===
+ --num 4, pok 18 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:04
+Variables: 32
+Polynomials: 128
+Avg length of polys: 6679
+Avg length of monomials: 5
+===
+ --num 4, pok 19 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:04
+Variables: 32
+Polynomials: 128
+Avg length of polys: 6708
+Avg length of monomials: 5
+===
+ --num 4, pok 20 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:04
+Variables: 32
+Polynomials: 128
+Avg length of polys: 6648
+Avg length of monomials: 5
+===
+ --num 4, pok 21 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:04
+Variables: 32
+Polynomials: 128
+Avg length of polys: 6681
+Avg length of monomials: 5
+===
+ --num 4, pok 22 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:04
+Variables: 32
+Polynomials: 128
+Avg length of polys: 6738
+Avg length of monomials: 5
+===
+ --num 4, pok 23 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:04
+Variables: 32
+Polynomials: 128
+Avg length of polys: 6711
+Avg length of monomials: 5
+===
+ --num 4, pok 24 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:04
+Variables: 32
+Polynomials: 128
+Avg length of polys: 6690
+Avg length of monomials: 5
+===
+ --num 4, pok 25 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:04
+Variables: 32
+Polynomials: 128
+Avg length of polys: 6714
+Avg length of monomials: 5
+===
+ --num 4, pok 26 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:04
+Variables: 32
+Polynomials: 128
+Avg length of polys: 6692
+Avg length of monomials: 5
+===
+ --num 4, pok 27 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:04
+Variables: 32
+Polynomials: 128
+Avg length of polys: 6699
+Avg length of monomials: 5
+===
+ --num 4, pok 28 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:04
+Variables: 32
+Polynomials: 128
+Avg length of polys: 6675
+Avg length of monomials: 5
+===
+ --num 4, pok 29 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:04
+Variables: 32
+Polynomials: 128
+Avg length of polys: 6699
+Avg length of monomials: 5
+=======================
+ --num 8
+===
+ --num 8, pok 10 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:05
+Variables: 32
+Polynomials: 256
+Avg length of polys: 6704
+Avg length of monomials: 5
+===
+ --num 8, pok 11 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:05
+Variables: 32
+Polynomials: 256
+Avg length of polys: 6674
+Avg length of monomials: 5
+===
+ --num 8, pok 12 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:05
+Variables: 32
+Polynomials: 256
+Avg length of polys: 6728
+Avg length of monomials: 5
+===
+ --num 8, pok 13 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:05
+Variables: 32
+Polynomials: 256
+Avg length of polys: 6680
+Avg length of monomials: 5
+===
+ --num 8, pok 14 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:05
+Variables: 32
+Polynomials: 256
+Avg length of polys: 6680
+Avg length of monomials: 5
+===
+ --num 8, pok 15 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:05
+Variables: 32
+Polynomials: 256
+Avg length of polys: 6708
+Avg length of monomials: 5
+===
+ --num 8, pok 16 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:05
+Variables: 32
+Polynomials: 256
+Avg length of polys: 6705
+Avg length of monomials: 5
+===
+ --num 8, pok 17 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:05
+Variables: 32
+Polynomials: 256
+Avg length of polys: 6700
+Avg length of monomials: 5
+===
+ --num 8, pok 18 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:05
+Variables: 32
+Polynomials: 256
+Avg length of polys: 6714
+Avg length of monomials: 5
+===
+ --num 8, pok 19 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:05
+Variables: 32
+Polynomials: 256
+Avg length of polys: 6703
+Avg length of monomials: 5
+===
+ --num 8, pok 20 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:05
+Variables: 32
+Polynomials: 256
+Avg length of polys: 6701
+Avg length of monomials: 5
+===
+ --num 8, pok 21 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:05
+Variables: 32
+Polynomials: 256
+Avg length of polys: 6693
+Avg length of monomials: 5
+===
+ --num 8, pok 22 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:05
+Variables: 32
+Polynomials: 256
+Avg length of polys: 6691
+Avg length of monomials: 5
+===
+ --num 8, pok 23 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:05
+Variables: 32
+Polynomials: 256
+Avg length of polys: 6686
+Avg length of monomials: 5
+===
+ --num 8, pok 24 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:05
+Variables: 32
+Polynomials: 256
+Avg length of polys: 6724
+Avg length of monomials: 5
+===
+ --num 8, pok 25 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:05
+Variables: 32
+Polynomials: 256
+Avg length of polys: 6690
+Avg length of monomials: 5
+===
+ --num 8, pok 26 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:05
+Variables: 32
+Polynomials: 256
+Avg length of polys: 6666
+Avg length of monomials: 5
+===
+ --num 8, pok 27 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:05
+Variables: 32
+Polynomials: 256
+Avg length of polys: 6687
+Avg length of monomials: 5
+===
+ --num 8, pok 28 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:05
+Variables: 32
+Polynomials: 256
+Avg length of polys: 6660
+Avg length of monomials: 5
+===
+ --num 8, pok 29 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:05
+Variables: 32
+Polynomials: 256
+Avg length of polys: 6676
+Avg length of monomials: 5
+=======================
+ --num 12
+===
+ --num 12, pok 10 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:07
+Variables: 32
+Polynomials: 384
+Avg length of polys: 6712
+Avg length of monomials: 5
+===
+ --num 12, pok 11 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 384
+Avg length of polys: 6721
+Avg length of monomials: 5
+===
+ --num 12, pok 12 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 384
+Avg length of polys: 6697
+Avg length of monomials: 5
+===
+ --num 12, pok 13 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 384
+Avg length of polys: 6692
+Avg length of monomials: 5
+===
+ --num 12, pok 14 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 384
+Avg length of polys: 6680
+Avg length of monomials: 5
+===
+ --num 12, pok 15 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 384
+Avg length of polys: 6737
+Avg length of monomials: 5
+===
+ --num 12, pok 16 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 384
+Avg length of polys: 6688
+Avg length of monomials: 5
+===
+ --num 12, pok 17 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 384
+Avg length of polys: 6698
+Avg length of monomials: 5
+===
+ --num 12, pok 18 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 384
+Avg length of polys: 6731
+Avg length of monomials: 5
+===
+ --num 12, pok 19 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 384
+Avg length of polys: 6708
+Avg length of monomials: 5
+===
+ --num 12, pok 20 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 384
+Avg length of polys: 6728
+Avg length of monomials: 5
+===
+ --num 12, pok 21 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 384
+Avg length of polys: 6696
+Avg length of monomials: 5
+===
+ --num 12, pok 22 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 384
+Avg length of polys: 6716
+Avg length of monomials: 5
+===
+ --num 12, pok 23 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 384
+Avg length of polys: 6681
+Avg length of monomials: 5
+===
+ --num 12, pok 24 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:07
+Variables: 32
+Polynomials: 384
+Avg length of polys: 6700
+Avg length of monomials: 5
+===
+ --num 12, pok 25 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 384
+Avg length of polys: 6706
+Avg length of monomials: 5
+===
+ --num 12, pok 26 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 384
+Avg length of polys: 6702
+Avg length of monomials: 5
+===
+ --num 12, pok 27 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 384
+Avg length of polys: 6721
+Avg length of monomials: 5
+===
+ --num 12, pok 28 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 384
+Avg length of polys: 6700
+Avg length of monomials: 5
+===
+ --num 12, pok 29 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:06
+Variables: 32
+Polynomials: 384
+Avg length of polys: 6689
+Avg length of monomials: 5
+=======================
+ --num 16
+===
+ --num 16, pok 10 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 512
+Avg length of polys: 6703
+Avg length of monomials: 5
+===
+ --num 16, pok 11 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 512
+Avg length of polys: 6698
+Avg length of monomials: 5
+===
+ --num 16, pok 12 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 512
+Avg length of polys: 6699
+Avg length of monomials: 5
+===
+ --num 16, pok 13 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 512
+Avg length of polys: 6701
+Avg length of monomials: 5
+===
+ --num 16, pok 14 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 512
+Avg length of polys: 6708
+Avg length of monomials: 5
+===
+ --num 16, pok 15 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 512
+Avg length of polys: 6682
+Avg length of monomials: 5
+===
+ --num 16, pok 16 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 512
+Avg length of polys: 6676
+Avg length of monomials: 5
+===
+ --num 16, pok 17 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 512
+Avg length of polys: 6705
+Avg length of monomials: 5
+===
+ --num 16, pok 18 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 512
+Avg length of polys: 6712
+Avg length of monomials: 5
+===
+ --num 16, pok 19 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 512
+Avg length of polys: 6698
+Avg length of monomials: 5
+===
+ --num 16, pok 20 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 512
+Avg length of polys: 6677
+Avg length of monomials: 5
+===
+ --num 16, pok 21 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 512
+Avg length of polys: 6717
+Avg length of monomials: 5
+===
+ --num 16, pok 22 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 512
+Avg length of polys: 6696
+Avg length of monomials: 5
+===
+ --num 16, pok 23 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:07
+Variables: 32
+Polynomials: 512
+Avg length of polys: 6690
+Avg length of monomials: 5
+===
+ --num 16, pok 24 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 512
+Avg length of polys: 6675
+Avg length of monomials: 5
+===
+ --num 16, pok 25 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 512
+Avg length of polys: 6672
+Avg length of monomials: 5
+===
+ --num 16, pok 26 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 512
+Avg length of polys: 6714
+Avg length of monomials: 5
+===
+ --num 16, pok 27 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 512
+Avg length of polys: 6697
+Avg length of monomials: 5
+===
+ --num 16, pok 28 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 512
+Avg length of polys: 6687
+Avg length of monomials: 5
+===
+ --num 16, pok 29 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:08
+Variables: 32
+Polynomials: 512
+Avg length of polys: 6681
+Avg length of monomials: 5
+=======================
+ --num 32
+===
+ --num 32, pok 10 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:15
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 6709
+Avg length of monomials: 5
+===
+ --num 32, pok 11 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:15
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 6706
+Avg length of monomials: 5
+===
+ --num 32, pok 12 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:15
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 6680
+Avg length of monomials: 5
+===
+ --num 32, pok 13 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:15
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 6683
+Avg length of monomials: 5
+===
+ --num 32, pok 14 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:15
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 6676
+Avg length of monomials: 5
+===
+ --num 32, pok 15 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:15
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 6696
+Avg length of monomials: 5
+===
+ --num 32, pok 16 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:15
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 6684
+Avg length of monomials: 5
+===
+ --num 32, pok 17 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:15
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 6693
+Avg length of monomials: 5
+===
+ --num 32, pok 18 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:15
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 6687
+Avg length of monomials: 5
+===
+ --num 32, pok 19 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:16
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 6714
+Avg length of monomials: 5
+===
+ --num 32, pok 20 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:15
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 6703
+Avg length of monomials: 5
+===
+ --num 32, pok 21 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:15
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 6700
+Avg length of monomials: 5
+===
+ --num 32, pok 22 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:15
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 6697
+Avg length of monomials: 5
+===
+ --num 32, pok 23 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:15
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 6700
+Avg length of monomials: 5
+===
+ --num 32, pok 24 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:18
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 6703
+Avg length of monomials: 5
+===
+ --num 32, pok 25 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:15
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 6685
+Avg length of monomials: 5
+===
+ --num 32, pok 26 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:15
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 6691
+Avg length of monomials: 5
+===
+ --num 32, pok 27 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:15
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 6695
+Avg length of monomials: 5
+===
+ --num 32, pok 28 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:15
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 6683
+Avg length of monomials: 5
+===
+ --num 32, pok 29 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:15
+Variables: 32
+Polynomials: 1024
+Avg length of polys: 6710
+Avg length of monomials: 5
+=======================
+ --num 48
+===
+ --num 48, pok 10 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:21
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 6697
+Avg length of monomials: 5
+===
+ --num 48, pok 11 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:21
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 6693
+Avg length of monomials: 5
+===
+ --num 48, pok 12 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:21
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 6687
+Avg length of monomials: 5
+===
+ --num 48, pok 13 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:21
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 6699
+Avg length of monomials: 5
+===
+ --num 48, pok 14 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:22
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 6700
+Avg length of monomials: 5
+===
+ --num 48, pok 15 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:21
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 6705
+Avg length of monomials: 5
+===
+ --num 48, pok 16 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:21
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 6710
+Avg length of monomials: 5
+===
+ --num 48, pok 17 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:22
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 6694
+Avg length of monomials: 5
+===
+ --num 48, pok 18 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:21
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 6688
+Avg length of monomials: 5
+===
+ --num 48, pok 19 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:21
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 6697
+Avg length of monomials: 5
+===
+ --num 48, pok 20 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:21
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 6701
+Avg length of monomials: 5
+===
+ --num 48, pok 21 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:21
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 6697
+Avg length of monomials: 5
+===
+ --num 48, pok 22 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:21
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 6686
+Avg length of monomials: 5
+===
+ --num 48, pok 23 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:21
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 6697
+Avg length of monomials: 5
+===
+ --num 48, pok 24 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:21
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 6695
+Avg length of monomials: 5
+===
+ --num 48, pok 25 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:21
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 6699
+Avg length of monomials: 5
+===
+ --num 48, pok 26 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:21
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 6697
+Avg length of monomials: 5
+===
+ --num 48, pok 27 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:21
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 6688
+Avg length of monomials: 5
+===
+ --num 48, pok 28 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:21
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 6696
+Avg length of monomials: 5
+===
+ --num 48, pok 29 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:21
+Variables: 32
+Polynomials: 1536
+Avg length of polys: 6694
+Avg length of monomials: 5
+=======================
+ --num 64
+===
+ --num 64, pok 10 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:28
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 6700
+Avg length of monomials: 5
+===
+ --num 64, pok 11 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:30
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 6696
+Avg length of monomials: 5
+===
+ --num 64, pok 12 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:28
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 6689
+Avg length of monomials: 5
+===
+ --num 64, pok 13 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:29
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 6699
+Avg length of monomials: 5
+===
+ --num 64, pok 14 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:29
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 6685
+Avg length of monomials: 5
+===
+ --num 64, pok 15 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:28
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 6699
+Avg length of monomials: 5
+===
+ --num 64, pok 16 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:29
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 6689
+Avg length of monomials: 5
+===
+ --num 64, pok 17 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:28
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 6692
+Avg length of monomials: 5
+===
+ --num 64, pok 18 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:28
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 6687
+Avg length of monomials: 5
+===
+ --num 64, pok 19 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:29
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 6696
+Avg length of monomials: 5
+===
+ --num 64, pok 20 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:29
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 6703
+Avg length of monomials: 5
+===
+ --num 64, pok 21 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:29
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 6699
+Avg length of monomials: 5
+===
+ --num 64, pok 22 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:28
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 6678
+Avg length of monomials: 5
+===
+ --num 64, pok 23 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:29
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 6709
+Avg length of monomials: 5
+===
+ --num 64, pok 24 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:29
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 6700
+Avg length of monomials: 5
+===
+ --num 64, pok 25 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:28
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 6699
+Avg length of monomials: 5
+===
+ --num 64, pok 26 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:28
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 6690
+Avg length of monomials: 5
+===
+ --num 64, pok 27 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:28
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 6699
+Avg length of monomials: 5
+===
+ --num 64, pok 28 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:29
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 6690
+Avg length of monomials: 5
+===
+ --num 64, pok 29 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:29
+Variables: 32
+Polynomials: 2048
+Avg length of polys: 6701
+Avg length of monomials: 5
+=======================
+ --num 96
+===
+ --num 96, pok 10 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:44
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 6693
+Avg length of monomials: 5
+===
+ --num 96, pok 11 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:42
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 6696
+Avg length of monomials: 5
+===
+ --num 96, pok 12 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:43
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 6695
+Avg length of monomials: 5
+===
+ --num 96, pok 13 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:44
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 6704
+Avg length of monomials: 5
+===
+ --num 96, pok 14 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:45
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 6688
+Avg length of monomials: 5
+===
+ --num 96, pok 15 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:44
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 6694
+Avg length of monomials: 5
+===
+ --num 96, pok 16 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:42
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 6699
+Avg length of monomials: 5
+===
+ --num 96, pok 17 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:42
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 6699
+Avg length of monomials: 5
+===
+ --num 96, pok 18 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:42
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 6688
+Avg length of monomials: 5
+===
+ --num 96, pok 19 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:47
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 6693
+Avg length of monomials: 5
+===
+ --num 96, pok 20 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:43
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 6695
+Avg length of monomials: 5
+===
+ --num 96, pok 21 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:46
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 6695
+Avg length of monomials: 5
+===
+ --num 96, pok 22 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:44
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 6691
+Avg length of monomials: 5
+===
+ --num 96, pok 23 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:42
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 6698
+Avg length of monomials: 5
+===
+ --num 96, pok 24 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:43
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 6688
+Avg length of monomials: 5
+===
+ --num 96, pok 25 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:43
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 6697
+Avg length of monomials: 5
+===
+ --num 96, pok 26 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:42
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 6700
+Avg length of monomials: 5
+===
+ --num 96, pok 27 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:54
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 6702
+Avg length of monomials: 5
+===
+ --num 96, pok 28 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:42
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 6694
+Avg length of monomials: 5
+===
+ --num 96, pok 29 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:47
+Variables: 32
+Polynomials: 3072
+Avg length of polys: 6693
+Avg length of monomials: 5
+=======================
+ --num 128
+===
+ --num 128, pok 10 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:01:01
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 6694
+Avg length of monomials: 5
+===
+ --num 128, pok 11 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:01:02
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 6692
+Avg length of monomials: 5
+===
+ --num 128, pok 12 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:58
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 6692
+Avg length of monomials: 5
+===
+ --num 128, pok 13 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:58
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 6701
+Avg length of monomials: 5
+===
+ --num 128, pok 14 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:58
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 6695
+Avg length of monomials: 5
+===
+ --num 128, pok 15 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:58
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 6698
+Avg length of monomials: 5
+===
+ --num 128, pok 16 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:58
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 6705
+Avg length of monomials: 5
+===
+ --num 128, pok 17 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:58
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 6688
+Avg length of monomials: 5
+===
+ --num 128, pok 18 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:01:03
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 6698
+Avg length of monomials: 5
+===
+ --num 128, pok 19 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:58
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 6699
+Avg length of monomials: 5
+===
+ --num 128, pok 20 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:01:02
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 6690
+Avg length of monomials: 5
+===
+ --num 128, pok 21 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:01:00
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 6699
+Avg length of monomials: 5
+===
+ --num 128, pok 22 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:57
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 6689
+Avg length of monomials: 5
+===
+ --num 128, pok 23 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:57
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 6697
+Avg length of monomials: 5
+===
+ --num 128, pok 24 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:59
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 6699
+Avg length of monomials: 5
+===
+ --num 128, pok 25 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:59
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 6698
+Avg length of monomials: 5
+===
+ --num 128, pok 26 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:01:01
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 6696
+Avg length of monomials: 5
+===
+ --num 128, pok 27 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:01:01
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 6707
+Avg length of monomials: 5
+===
+ --num 128, pok 28 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:57
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 6702
+Avg length of monomials: 5
+===
+ --num 128, pok 29 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:00:59
+Variables: 32
+Polynomials: 4096
+Avg length of polys: 6695
+Avg length of monomials: 5
+=======================
+ --num 256
+===
+ --num 256, pok 10 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:01:59
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 6695
+Avg length of monomials: 5
+===
+ --num 256, pok 11 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:01:58
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 6707
+Avg length of monomials: 5
+===
+ --num 256, pok 12 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:01:59
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 6693
+Avg length of monomials: 5
+===
+ --num 256, pok 13 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:02:06
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 6687
+Avg length of monomials: 5
+===
+ --num 256, pok 14 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:02:07
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 6695
+Avg length of monomials: 5
+===
+ --num 256, pok 15 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:01:54
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 6700
+Avg length of monomials: 5
+===
+ --num 256, pok 16 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:02:13
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 6695
+Avg length of monomials: 5
+===
+ --num 256, pok 17 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:01:59
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 6704
+Avg length of monomials: 5
+===
+ --num 256, pok 18 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:02:13
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 6702
+Avg length of monomials: 5
+===
+ --num 256, pok 19 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:01:52
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 6705
+Avg length of monomials: 5
+===
+ --num 256, pok 20 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:01:58
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 6690
+Avg length of monomials: 5
+===
+ --num 256, pok 21 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:02:04
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 6705
+Avg length of monomials: 5
+===
+ --num 256, pok 22 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:02:00
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 6698
+Avg length of monomials: 5
+===
+ --num 256, pok 23 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:01:57
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 6694
+Avg length of monomials: 5
+===
+ --num 256, pok 24 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:01:59
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 6689
+Avg length of monomials: 5
+===
+ --num 256, pok 25 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:02:27
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 6699
+Avg length of monomials: 5
+===
+ --num 256, pok 26 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:02:02
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 6692
+Avg length of monomials: 5
+===
+ --num 256, pok 27 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:01:57
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 6698
+Avg length of monomials: 5
+===
+ --num 256, pok 28 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:02:00
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 6691
+Avg length of monomials: 5
+===
+ --num 256, pok 29 --dry
+Cipher: SR(2,2,4,4)
+Time of "ps_key_vars": 0:02:01
+Variables: 32
+Polynomials: 8192
+Avg length of polys: 6692
+Avg length of monomials: 5

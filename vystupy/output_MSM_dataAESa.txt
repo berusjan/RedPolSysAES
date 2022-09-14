@@ -1,0 +1,263 @@
+MERENI VYPOCTU MSM3
+AES
+
+SR(n,4,4,8) - 128bit klic:
+==========================================
+SR(1,4,4,8)
+=======================
+ --num 64
+===
+ --num 64, pok 12 --ml --MSM --sep
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:02:31
+pred ml: 22:30:56.965659
+serazeni: 22:31:01.872550
+MSM end: 22:31:01.898901
+MSM end: 22:31:01.915780
+MSM end: 22:31:01.943425
+Time of "ps_reduce_ml": 0:00:09
+==
+psets0
+Variables: 128
+Polynomials: 256
+Avg length of polys: 632
+Avg length of monomials: 4
+Solver: F4
+timeout pri --num 64, pok 12 MSM
+===
+ --num 64, pok 13 --ml --MSM --sep
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:02:44
+pred ml: 01:31:09.502753
+serazeni: 01:31:14.378751
+MSM end: 01:31:14.395734
+MSM end: 01:31:14.412494
+MSM end: 01:31:14.439172
+Time of "ps_reduce_ml": 0:00:08
+==
+psets0
+Variables: 128
+Polynomials: 256
+Avg length of polys: 634
+Avg length of monomials: 4
+Solver: F4
+timeout pri --num 64, pok 13 MSM
+===
+ --num 64, pok 14 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:02:25
+==
+psets0
+Variables: 128
+Polynomials: 8192
+Avg length of polys: 599
+Avg length of monomials: 4
+===
+ --num 64, pok 15 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:02:35
+==
+psets0
+Variables: 128
+Polynomials: 8192
+Avg length of polys: 598
+Avg length of monomials: 4
+=======================
+ --num 48
+===
+ --num 48, pok 12 --ml --MSM --sep
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:01:48
+pred ml: 04:35:25.487178
+serazeni: 04:35:29.210750
+MSM end: 04:35:29.229896
+MSM end: 04:35:29.247940
+MSM end: 04:35:29.283461
+Time of "ps_reduce_ml": 0:00:07
+==
+psets0
+Variables: 128
+Polynomials: 256
+Avg length of polys: 633
+Avg length of monomials: 4
+Solver: F4
+timeout pri --num 48, pok 12 MSM
+===
+ --num 48, pok 13 --ml --MSM --sep
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:01:44
+pred ml: 07:35:37.319512
+serazeni: 07:35:41.090523
+MSM end: 07:35:41.108966
+MSM end: 07:35:41.126236
+MSM end: 07:35:41.158936
+Time of "ps_reduce_ml": 0:00:07
+==
+psets0
+Variables: 128
+Polynomials: 256
+Avg length of polys: 633
+Avg length of monomials: 4
+Solver: F4
+timeout pri --num 48, pok 13 MSM
+===
+ --num 48, pok 14 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:01:44
+==
+psets0
+Variables: 128
+Polynomials: 6144
+Avg length of polys: 599
+Avg length of monomials: 4
+===
+ --num 48, pok 15 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:01:44
+==
+psets0
+Variables: 128
+Polynomials: 6144
+Avg length of polys: 599
+Avg length of monomials: 4
+=======================
+ --num 32
+===
+ --num 32, pok 12 --ml --MSM --sep
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:01:24
+pred ml: 10:16:39.729477
+serazeni: 10:16:42.166113
+MSM end: 10:16:42.180769
+MSM end: 10:16:42.203979
+MSM end: 10:16:42.227634
+Time of "ps_reduce_ml": 0:00:06
+==
+psets0
+Variables: 128
+Polynomials: 256
+Avg length of polys: 633
+Avg length of monomials: 4
+Solver: F4
+timeout pri --num 32, pok 12 MSM
+===
+ --num 32, pok 13 --ml --MSM --sep
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:01:21
+pred ml: 13:16:37.102113
+serazeni: 13:16:39.651299
+MSM end: 13:16:39.665788
+MSM end: 13:16:39.689112
+MSM end: 13:16:39.714082
+Time of "ps_reduce_ml": 0:00:07
+==
+psets0
+Variables: 128
+Polynomials: 256
+Avg length of polys: 632
+Avg length of monomials: 4
+Solver: F4
+timeout pri --num 32, pok 13 MSM
+===
+ --num 32, pok 14 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:01:24
+==
+psets0
+Variables: 128
+Polynomials: 4096
+Avg length of polys: 599
+Avg length of monomials: 4
+===
+ --num 32, pok 15 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:01:27
+==
+psets0
+Variables: 128
+Polynomials: 4096
+Avg length of polys: 599
+Avg length of monomials: 4
+=======================
+ --num 16
+===
+ --num 16, pok 12 --ml --MSM --sep
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:00:42
+pred ml: 16:18:55.072798
+serazeni: 16:18:56.292288
+MSM end: 16:18:56.306869
+MSM end: 16:18:56.319227
+MSM end: 16:18:56.343808
+Time of "ps_reduce_ml": 0:00:05
+==
+psets0
+Variables: 128
+Polynomials: 256
+Avg length of polys: 632
+Avg length of monomials: 4
+Solver: F4
+timeout pri --num 16, pok 12 MSM
+===
+ --num 16, pok 13 --ml --MSM --sep
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:00:44
+pred ml: 19:19:13.781211
+serazeni: 19:19:15.015750
+MSM end: 19:19:15.032376
+MSM end: 19:19:15.045889
+MSM end: 19:19:15.073063
+Time of "ps_reduce_ml": 0:00:05
+==
+psets0
+Variables: 128
+Polynomials: 256
+Avg length of polys: 633
+Avg length of monomials: 4
+Solver: F4
+timeout pri --num 16, pok 13 MSM
+===
+ --num 16, pok 14 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:00:44
+==
+psets0
+Variables: 128
+Polynomials: 2048
+Avg length of polys: 599
+Avg length of monomials: 4
+===
+ --num 16, pok 15 --dry
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:00:44
+==
+psets0
+Variables: 128
+Polynomials: 2048
+Avg length of polys: 599
+Avg length of monomials: 4
+=======================
+ --num 8
+===
+ --num 8, pok 12 --ml --MSM --sep
+Cipher: SR(1,4,4,8)
+Time of "ps_key_vars": 0:00:38
+pred ml: 22:20:41.253830
+serazeni: 22:20:41.880905
+MSM end: 22:20:41.895251
+MSM end: 22:20:41.907041
+doplneni polynomu 513
+doplneni polynomu 514
+doplneni polynomu 515
+..
+doplneni polynomu 1023
+doplneni polynomu 1024
+MSM end: 22:20:41.909455
+Time of "ps_reduce_ml": 0:00:05
+==
+psets0
+Variables: 128
+Polynomials: 256
+Avg length of polys: 632
+Avg length of monomials: 4
+Solver: F4

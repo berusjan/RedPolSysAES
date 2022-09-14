@@ -1,0 +1,945 @@
+
+set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+set ylabel 'Čas [s]'
+set style textbox opaque
+set grid x
+set grid y
+set xlabel 'Počet polynomiálních systémů'
+
+unset logscale x
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr1224lsh4MONOMS.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_lsh4_1224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Průměrný počet monomů'
+
+
+
+set title 'Graf vývoje času potřebného k vygenerování systémů'
+set output 'sr1224lsh4PS.pdf'
+set ylabel 'Čas [s]'
+
+#plot 'data_lsh4_1224.txt' using 1:4:($4-$5):($4+$5) with yerrorbars notitle, '' using 1:4 with lines title 'Průměrný čas vytváření ps', \
+#'data_lsh4_1224.txt' using 1:6:($6-$7):($6+$7) with yerrorbars notitle, '' using 1:6 with lines title 'Průměrný čas redukce ps', \
+#'data_lsh4_1224.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas pripravy ps'
+
+plot 'data_lsh4_1224.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps'
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr1224lsh4KEY.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_1224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče'
+
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr1224lsh4ALL.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_1224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče', \
+'data_lsh4_1224.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps', \
+'data_lsh4_1224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Průměrný čas celého běhu skriptu'
+
+
+set logscale x
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr1224lsh4MONOMS_logscale.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_lsh4_1224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Průměrný počet monomů'
+
+
+
+set title 'Graf vývoje času potřebného k vygenerování systémů'
+set output 'sr1224lsh4PS_logscale.pdf'
+set ylabel 'Čas [s]'
+
+#plot 'data_lsh4_1224.txt' using 1:4:($4-$5):($4+$5) with yerrorbars notitle, '' using 1:4 with lines title 'Průměrný čas vytváření ps', \
+#'data_lsh4_1224.txt' using 1:6:($6-$7):($6+$7) with yerrorbars notitle, '' using 1:6 with lines title 'Průměrný čas redukce ps', \
+#'data_lsh4_1224.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas pripravy ps'
+
+plot 'data_lsh4_1224.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps'
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr1224lsh4KEY_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_1224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče - lsh4', \
+#'data_ref_1224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče - ref'
+
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr1224lsh4ALL_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_1224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče', \
+'data_lsh4_1224.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps', \
+'data_lsh4_1224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Průměrný čas celého běhu skriptu'
+
+###############
+
+
+set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+set ylabel 'Čas [s]'
+set style textbox opaque
+set grid x
+set grid y
+set xlabel 'Počet polynomiálních systémů'
+
+unset logscale x
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr2224lsh4MONOMS.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_lsh4_2224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Průměrný počet monomů'
+
+
+
+set title 'Graf vývoje času potřebného k vygenerování systémů'
+set output 'sr2224lsh4PS.pdf'
+set ylabel 'Čas [s]'
+
+#plot 'data_lsh4_2224.txt' using 1:4:($4-$5):($4+$5) with yerrorbars notitle, '' using 1:4 with lines title 'Průměrný čas vytváření ps', \
+#'data_lsh4_2224.txt' using 1:6:($6-$7):($6+$7) with yerrorbars notitle, '' using 1:6 with lines title 'Průměrný čas redukce ps', \
+#'data_lsh4_2224.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas pripravy ps'
+
+plot 'data_lsh4_2224.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps'
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr2224lsh4KEY.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_2224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče'
+
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr2224lsh4ALL.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_2224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče', \
+'data_lsh4_2224.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps', \
+'data_lsh4_2224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Průměrný čas celého běhu skriptu'
+
+
+set logscale x
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr2224lsh4MONOMS_logscale.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_lsh4_2224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Průměrný počet monomů'
+
+
+
+set title 'Graf vývoje času potřebného k vygenerování systémů'
+set output 'sr2224lsh4PS_logscale.pdf'
+set ylabel 'Čas [s]'
+
+#plot 'data_lsh4_2224.txt' using 1:4:($4-$5):($4+$5) with yerrorbars notitle, '' using 1:4 with lines title 'Průměrný čas vytváření ps', \
+#'data_lsh4_2224.txt' using 1:6:($6-$7):($6+$7) with yerrorbars notitle, '' using 1:6 with lines title 'Průměrný čas redukce ps', \
+#'data_lsh4_2224.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas pripravy ps'
+
+plot 'data_lsh4_2224.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps'
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr2224lsh4KEY_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_2224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče - lsh4', \
+#'data_ref_2224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče - ref'
+
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr2224lsh4ALL_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_2224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče', \
+'data_lsh4_2224.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps', \
+'data_lsh4_2224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Průměrný čas celého běhu skriptu'
+
+###############
+
+####nespocitalo se vubec
+#set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+#set ylabel 'Čas [s]'
+#set style textbox opaque
+#set grid x
+#set grid y
+#set xlabel 'Počet polynomiálních systémů'
+
+#unset logscale x
+
+
+#set title 'Graf vývoje počtu monomů'
+#set output 'sr3224lsh4MONOMS.pdf'
+#set ylabel 'Počet monomů v polynomu'
+
+#plot 'data_lsh4_3224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Průměrný počet monomů'
+
+
+
+#set title 'Graf vývoje času potřebného k vygenerování systémů'
+#set output 'sr3224lsh4PS.pdf'
+#set ylabel 'Čas [s]'
+
+##plot 'data_lsh4_3224.txt' using 1:4:($4-$5):($4+$5) with yerrorbars notitle, '' using 1:4 with lines title 'Průměrný čas vytváření ps', \
+##'data_lsh4_3224.txt' using 1:6:($6-$7):($6+$7) with yerrorbars notitle, '' using 1:6 with lines title 'Průměrný čas redukce ps', \
+##'data_lsh4_3224.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas pripravy ps'
+
+#plot 'data_lsh4_3224.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps'
+
+
+
+
+#set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+#set output 'sr3224lsh4KEY.pdf'
+#set ylabel 'Čas [s]'
+
+#plot 'data_lsh4_3224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče'
+
+
+
+
+#set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+#set output 'sr3224lsh4ALL.pdf'
+#set ylabel 'Čas [s]'
+
+#plot 'data_lsh4_3224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče', \
+#'data_lsh4_3224.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps', \
+#'data_lsh4_3224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Průměrný čas celého běhu skriptu'
+
+
+#set logscale x
+
+
+#set title 'Graf vývoje počtu monomů'
+#set output 'sr3224lsh4MONOMS_logscale.pdf'
+#set ylabel 'Počet monomů v polynomu'
+
+#plot 'data_lsh4_3224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Průměrný počet monomů'
+
+
+
+#set title 'Graf vývoje času potřebného k vygenerování systémů'
+#set output 'sr3224lsh4PS_logscale.pdf'
+#set ylabel 'Čas [s]'
+
+##plot 'data_lsh4_3224.txt' using 1:4:($4-$5):($4+$5) with yerrorbars notitle, '' using 1:4 with lines title 'Průměrný čas vytváření ps', \
+##'data_lsh4_3224.txt' using 1:6:($6-$7):($6+$7) with yerrorbars notitle, '' using 1:6 with lines title 'Průměrný čas redukce ps', \
+##'data_lsh4_3224.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas pripravy ps'
+
+#plot 'data_lsh4_3224.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps'
+
+
+
+
+#set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+#set output 'sr3224lsh4KEY_logscale.pdf'
+#set ylabel 'Čas [s]'
+
+#plot 'data_lsh4_3224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče - lsh4', \
+##'data_ref_3224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče - ref'
+
+
+
+
+#set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+#set output 'sr3224lsh4ALL_logscale.pdf'
+#set ylabel 'Čas [s]'
+
+#plot 'data_lsh4_3224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče', \
+#'data_lsh4_3224.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps', \
+#'data_lsh4_3224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Průměrný čas celého běhu skriptu'
+
+###############
+
+
+set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+set ylabel 'Čas [s]'
+set style textbox opaque
+set grid x
+set grid y
+set xlabel 'Počet polynomiálních systémů'
+
+unset logscale x
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr1244lsh4MONOMS.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_lsh4_1244.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Průměrný počet monomů'
+
+
+
+set title 'Graf vývoje času potřebného k vygenerování systémů'
+set output 'sr1244lsh4PS.pdf'
+set ylabel 'Čas [s]'
+
+#plot 'data_lsh4_1244.txt' using 1:4:($4-$5):($4+$5) with yerrorbars notitle, '' using 1:4 with lines title 'Průměrný čas vytváření ps', \
+#'data_lsh4_1244.txt' using 1:6:($6-$7):($6+$7) with yerrorbars notitle, '' using 1:6 with lines title 'Průměrný čas redukce ps', \
+#'data_lsh4_1244.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas pripravy ps'
+
+plot 'data_lsh4_1244.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps'
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr1244lsh4KEY.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_1244.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče'
+
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr1244lsh4ALL.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_1244.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče', \
+'data_lsh4_1244.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps', \
+'data_lsh4_1244.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Průměrný čas celého běhu skriptu'
+
+
+set logscale x
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr1244lsh4MONOMS_logscale.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_lsh4_1244.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Průměrný počet monomů'
+
+
+
+set title 'Graf vývoje času potřebného k vygenerování systémů'
+set output 'sr1244lsh4PS_logscale.pdf'
+set ylabel 'Čas [s]'
+
+#plot 'data_lsh4_1244.txt' using 1:4:($4-$5):($4+$5) with yerrorbars notitle, '' using 1:4 with lines title 'Průměrný čas vytváření ps', \
+#'data_lsh4_1244.txt' using 1:6:($6-$7):($6+$7) with yerrorbars notitle, '' using 1:6 with lines title 'Průměrný čas redukce ps', \
+#'data_lsh4_1244.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas pripravy ps'
+
+plot 'data_lsh4_1244.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps'
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr1244lsh4KEY_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_1244.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče - lsh4', \
+#'data_ref_1244.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče - ref'
+
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr1244lsh4ALL_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_1244.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče', \
+'data_lsh4_1244.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps', \
+'data_lsh4_1244.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Průměrný čas celého běhu skriptu'
+
+###############
+
+
+
+set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+set ylabel 'Čas [s]'
+set style textbox opaque
+set grid x
+set grid y
+set xlabel 'Počet polynomiálních systémů'
+
+unset logscale x
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr2244lsh4MONOMS.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_lsh4_2244.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Průměrný počet monomů'
+
+
+
+set title 'Graf vývoje času potřebného k vygenerování systémů'
+set output 'sr2244lsh4PS.pdf'
+set ylabel 'Čas [s]'
+
+#plot 'data_lsh4_2244.txt' using 1:4:($4-$5):($4+$5) with yerrorbars notitle, '' using 1:4 with lines title 'Průměrný čas vytváření ps', \
+#'data_lsh4_2244.txt' using 1:6:($6-$7):($6+$7) with yerrorbars notitle, '' using 1:6 with lines title 'Průměrný čas redukce ps', \
+#'data_lsh4_2244.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas pripravy ps'
+
+plot 'data_lsh4_2244.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps'
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr2244lsh4KEY.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_2244.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče'
+
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr2244lsh4ALL.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_2244.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče', \
+'data_lsh4_2244.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps', \
+'data_lsh4_2244.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Průměrný čas celého běhu skriptu'
+
+
+set logscale x
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr2244lsh4MONOMS_logscale.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_lsh4_2244.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Průměrný počet monomů'
+
+
+
+set title 'Graf vývoje času potřebného k vygenerování systémů'
+set output 'sr2244lsh4PS_logscale.pdf'
+set ylabel 'Čas [s]'
+
+#plot 'data_lsh4_2244.txt' using 1:4:($4-$5):($4+$5) with yerrorbars notitle, '' using 1:4 with lines title 'Průměrný čas vytváření ps', \
+#'data_lsh4_2244.txt' using 1:6:($6-$7):($6+$7) with yerrorbars notitle, '' using 1:6 with lines title 'Průměrný čas redukce ps', \
+#'data_lsh4_2244.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas pripravy ps'
+
+plot 'data_lsh4_2244.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps'
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr2244lsh4KEY_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_2244.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče - lsh4', \
+#'data_ref_2244.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče - ref'
+
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr2244lsh4ALL_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_2244.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče', \
+'data_lsh4_2244.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps', \
+'data_lsh4_2244.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Průměrný čas celého běhu skriptu'
+
+###############
+
+
+
+
+set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+set ylabel 'Čas [s]'
+set style textbox opaque
+set grid x
+set grid y
+set xlabel 'Počet polynomiálních systémů'
+
+unset logscale x
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr1424lsh4MONOMS.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_lsh4_1424.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Průměrný počet monomů'
+
+
+
+set title 'Graf vývoje času potřebného k vygenerování systémů'
+set output 'sr1424lsh4PS.pdf'
+set ylabel 'Čas [s]'
+
+#plot 'data_lsh4_1424.txt' using 1:4:($4-$5):($4+$5) with yerrorbars notitle, '' using 1:4 with lines title 'Průměrný čas vytváření ps', \
+#'data_lsh4_1424.txt' using 1:6:($6-$7):($6+$7) with yerrorbars notitle, '' using 1:6 with lines title 'Průměrný čas redukce ps', \
+#'data_lsh4_1424.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas pripravy ps'
+
+plot 'data_lsh4_1424.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps'
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr1424lsh4KEY.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_1424.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče'
+
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr1424lsh4ALL.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_1424.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče', \
+'data_lsh4_1424.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps', \
+'data_lsh4_1424.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Průměrný čas celého běhu skriptu'
+
+
+set logscale x
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr1424lsh4MONOMS_logscale.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_lsh4_1424.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Průměrný počet monomů'
+
+
+
+set title 'Graf vývoje času potřebného k vygenerování systémů'
+set output 'sr1424lsh4PS_logscale.pdf'
+set ylabel 'Čas [s]'
+
+#plot 'data_lsh4_1424.txt' using 1:4:($4-$5):($4+$5) with yerrorbars notitle, '' using 1:4 with lines title 'Průměrný čas vytváření ps', \
+#'data_lsh4_1424.txt' using 1:6:($6-$7):($6+$7) with yerrorbars notitle, '' using 1:6 with lines title 'Průměrný čas redukce ps', \
+#'data_lsh4_1424.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas pripravy ps'
+
+plot 'data_lsh4_1424.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps'
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr1424lsh4KEY_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_1424.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče - lsh4', \
+#'data_ref_1424.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče - ref'
+
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr1424lsh4ALL_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_1424.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče', \
+'data_lsh4_1424.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps', \
+'data_lsh4_1424.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Průměrný čas celého běhu skriptu'
+
+###############
+
+
+set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+set ylabel 'Čas [s]'
+set style textbox opaque
+set grid x
+set grid y
+set xlabel 'Počet polynomiálních systémů'
+
+unset logscale x
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr1228lsh4MONOMS.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_lsh4_1228.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Průměrný počet monomů'
+
+
+
+set title 'Graf vývoje času potřebného k vygenerování systémů'
+set output 'sr1228lsh4PS.pdf'
+set ylabel 'Čas [s]'
+
+#plot 'data_lsh4_1228.txt' using 1:4:($4-$5):($4+$5) with yerrorbars notitle, '' using 1:4 with lines title 'Průměrný čas vytváření ps', \
+#'data_lsh4_1228.txt' using 1:6:($6-$7):($6+$7) with yerrorbars notitle, '' using 1:6 with lines title 'Průměrný čas redukce ps', \
+#'data_lsh4_1228.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas pripravy ps'
+
+plot 'data_lsh4_1228.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps'
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr1228lsh4KEY.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_1228.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče'
+
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr1228lsh4ALL.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_1228.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče', \
+'data_lsh4_1228.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps', \
+'data_lsh4_1228.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Průměrný čas celého běhu skriptu'
+
+
+set logscale x
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr1228lsh4MONOMS_logscale.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_lsh4_1228.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Průměrný počet monomů'
+
+
+
+set title 'Graf vývoje času potřebného k vygenerování systémů'
+set output 'sr1228lsh4PS_logscale.pdf'
+set ylabel 'Čas [s]'
+
+#plot 'data_lsh4_1228.txt' using 1:4:($4-$5):($4+$5) with yerrorbars notitle, '' using 1:4 with lines title 'Průměrný čas vytváření ps', \
+#'data_lsh4_1228.txt' using 1:6:($6-$7):($6+$7) with yerrorbars notitle, '' using 1:6 with lines title 'Průměrný čas redukce ps', \
+#'data_lsh4_1228.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas pripravy ps'
+
+plot 'data_lsh4_1228.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps'
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr1228lsh4KEY_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_1228.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče - lsh4', \
+#'data_ref_1228.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče - ref'
+
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr1228lsh4ALL_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_1228.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče', \
+'data_lsh4_1228.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps', \
+'data_lsh4_1228.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Průměrný čas celého běhu skriptu'
+
+
+
+###############
+
+
+set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+set ylabel 'Čas [s]'
+set style textbox opaque
+set grid x
+set grid y
+set xlabel 'Počet polynomiálních systémů'
+
+unset logscale x
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr1248lsh4MONOMS.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_lsh4_1248.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Průměrný počet monomů'
+
+
+
+set title 'Graf vývoje času potřebného k vygenerování systémů'
+set output 'sr1248lsh4PS.pdf'
+set ylabel 'Čas [s]'
+
+#plot 'data_lsh4_1248.txt' using 1:4:($4-$5):($4+$5) with yerrorbars notitle, '' using 1:4 with lines title 'Průměrný čas vytváření ps', \
+#'data_lsh4_1248.txt' using 1:6:($6-$7):($6+$7) with yerrorbars notitle, '' using 1:6 with lines title 'Průměrný čas redukce ps', \
+#'data_lsh4_1248.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas pripravy ps'
+
+plot 'data_lsh4_1248.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps'
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr1248lsh4KEY.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_1248.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče'
+
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr1248lsh4ALL.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_1248.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče', \
+'data_lsh4_1248.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps', \
+'data_lsh4_1248.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Průměrný čas celého běhu skriptu'
+
+
+set logscale x
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr1248lsh4MONOMS_logscale.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_lsh4_1248.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Průměrný počet monomů'
+
+
+
+set title 'Graf vývoje času potřebného k vygenerování systémů'
+set output 'sr1248lsh4PS_logscale.pdf'
+set ylabel 'Čas [s]'
+
+#plot 'data_lsh4_1248.txt' using 1:4:($4-$5):($4+$5) with yerrorbars notitle, '' using 1:4 with lines title 'Průměrný čas vytváření ps', \
+#'data_lsh4_1248.txt' using 1:6:($6-$7):($6+$7) with yerrorbars notitle, '' using 1:6 with lines title 'Průměrný čas redukce ps', \
+#'data_lsh4_1248.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas pripravy ps'
+
+plot 'data_lsh4_1248.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps'
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr1248lsh4KEY_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_1248.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče - lsh4', \
+#'data_ref_1248.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče - ref'
+
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr1248lsh4ALL_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_1248.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče', \
+'data_lsh4_1248.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps', \
+'data_lsh4_1248.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Průměrný čas celého běhu skriptu'
+
+###############
+
+
+set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+set ylabel 'Čas [s]'
+set style textbox opaque
+set grid x
+set grid y
+set xlabel 'Počet polynomiálních systémů'
+
+unset logscale x
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr1444lsh4MONOMS.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_lsh4_1444.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Průměrný počet monomů'
+
+
+
+set title 'Graf vývoje času potřebného k vygenerování systémů'
+set output 'sr1444lsh4PS.pdf'
+set ylabel 'Čas [s]'
+
+#plot 'data_lsh4_1444.txt' using 1:4:($4-$5):($4+$5) with yerrorbars notitle, '' using 1:4 with lines title 'Průměrný čas vytváření ps', \
+#'data_lsh4_1444.txt' using 1:6:($6-$7):($6+$7) with yerrorbars notitle, '' using 1:6 with lines title 'Průměrný čas redukce ps', \
+#'data_lsh4_1444.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas pripravy ps'
+
+plot 'data_lsh4_1444.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps'
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr1444lsh4KEY.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_1444.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče'
+
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr1444lsh4ALL.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_1444.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče', \
+'data_lsh4_1444.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps', \
+'data_lsh4_1444.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Průměrný čas celého běhu skriptu'
+
+
+set logscale x
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr1444lsh4MONOMS_logscale.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_lsh4_1444.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Průměrný počet monomů'
+
+
+
+set title 'Graf vývoje času potřebného k vygenerování systémů'
+set output 'sr1444lsh4PS_logscale.pdf'
+set ylabel 'Čas [s]'
+
+#plot 'data_lsh4_1444.txt' using 1:4:($4-$5):($4+$5) with yerrorbars notitle, '' using 1:4 with lines title 'Průměrný čas vytváření ps', \
+#'data_lsh4_1444.txt' using 1:6:($6-$7):($6+$7) with yerrorbars notitle, '' using 1:6 with lines title 'Průměrný čas redukce ps', \
+#'data_lsh4_1444.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas pripravy ps'
+
+plot 'data_lsh4_1444.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps'
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr1444lsh4KEY_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_1444.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče - lsh4', \
+#'data_ref_1444.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče - ref'
+
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr1444lsh4ALL_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh4_1444.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče', \
+'data_lsh4_1444.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps', \
+'data_lsh4_1444.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Průměrný čas celého běhu skriptu'
+
+###############
+
+####pouze num 8 - dpocotat nebo nedelat graf
+#set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+#set ylabel 'Čas [s]'
+#set style textbox opaque
+#set grid x
+#set grid y
+#set xlabel 'Počet polynomiálních systémů'
+
+#unset logscale x
+
+
+#set title 'Graf vývoje počtu monomů'
+#set output 'sr1428lsh4MONOMS.pdf'
+#set ylabel 'Počet monomů v polynomu'
+
+#plot 'data_lsh4_1428.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Průměrný počet monomů'
+
+
+
+#set title 'Graf vývoje času potřebného k vygenerování systémů'
+#set output 'sr1428lsh4PS.pdf'
+#set ylabel 'Čas [s]'
+
+##plot 'data_lsh4_1428.txt' using 1:4:($4-$5):($4+$5) with yerrorbars notitle, '' using 1:4 with lines title 'Průměrný čas vytváření ps', \
+##'data_lsh4_1428.txt' using 1:6:($6-$7):($6+$7) with yerrorbars notitle, '' using 1:6 with lines title 'Průměrný čas redukce ps', \
+##'data_lsh4_1428.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas pripravy ps'
+
+#plot 'data_lsh4_1428.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps'
+
+
+
+
+#set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+#set output 'sr1428lsh4KEY.pdf'
+#set ylabel 'Čas [s]'
+
+#plot 'data_lsh4_1428.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče'
+
+
+
+
+#set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+#set output 'sr1428lsh4ALL.pdf'
+#set ylabel 'Čas [s]'
+
+#plot 'data_lsh4_1428.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče', \
+#'data_lsh4_1428.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps', \
+#'data_lsh4_1428.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Průměrný čas celého běhu skriptu'
+
+
+#set logscale x
+
+
+#set title 'Graf vývoje počtu monomů'
+#set output 'sr1428lsh4MONOMS_logscale.pdf'
+#set ylabel 'Počet monomů v polynomu'
+
+#plot 'data_lsh4_1428.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Průměrný počet monomů'
+
+
+
+#set title 'Graf vývoje času potřebného k vygenerování systémů'
+#set output 'sr1428lsh4PS_logscale.pdf'
+#set ylabel 'Čas [s]'
+
+##plot 'data_lsh4_1428.txt' using 1:4:($4-$5):($4+$5) with yerrorbars notitle, '' using 1:4 with lines title 'Průměrný čas vytváření ps', \
+##'data_lsh4_1428.txt' using 1:6:($6-$7):($6+$7) with yerrorbars notitle, '' using 1:6 with lines title 'Průměrný čas redukce ps', \
+##'data_lsh4_1428.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas pripravy ps'
+
+#plot 'data_lsh4_1428.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps'
+
+
+
+
+#set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+#set output 'sr1428lsh4KEY_logscale.pdf'
+#set ylabel 'Čas [s]'
+
+#plot 'data_lsh4_1428.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče - lsh4', \
+##'data_ref_1428.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče - ref'
+
+
+
+
+#set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+#set output 'sr1428lsh4ALL_logscale.pdf'
+#set ylabel 'Čas [s]'
+
+#plot 'data_lsh4_1428.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Průměrný čas výpočtu klíče', \
+#'data_lsh4_1428.txt' using 1:8:($8-$9):($8+$9) with yerrorbars notitle, '' using 1:8 with lines title 'Průměrný čas přípravy ps', \
+#'data_lsh4_1428.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Průměrný čas celého běhu skriptu'
+
+###############
+

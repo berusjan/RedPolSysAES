@@ -1,0 +1,457 @@
+
+set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+set ylabel 'Čas [s]'
+set style textbox opaque
+set grid x
+set grid y
+set xlabel 'Počet polynomiálních systémů'
+
+set logscale x
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr1224cmpallrefMONOMS_logscale.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_lsh8_1224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Metoda LSH - Průměrný počet monomů', \
+'data_pam8_1224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Metoda PAM - Průměrný počet monomů', \
+'data_msm_1224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Metoda MSM - Průměrný počet monomů', \
+'data_ref_1224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Referenční - Průměrný počet monomů'
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr1224cmpallrefKEY_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh8_1224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda LSH - Průměrný čas výpočtu klíče', \
+'data_pam8_1224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda PAM - Průměrný čas výpočtu klíče', \
+'data_msm_1224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda MSM - Průměrný čas výpočtu klíče', \
+'data_ref_1224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Referenční - Průměrný čas výpočtu klíče'
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr1224cmpallrefALL_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh8_1224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Metoda LSH - Průměrný čas celého běhu skriptu', \
+'data_pam8_1224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Metoda PAM - Průměrný čas celého běhu skriptu', \
+'data_msm_1224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Metoda MSM - Průměrný čas celého běhu skriptu', \
+'data_ref_1224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Referenční - Průměrný čas výpočtu klíče'
+
+###############
+
+
+set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+set ylabel 'Čas [s]'
+set style textbox opaque
+set grid x
+set grid y
+set xlabel 'Počet polynomiálních systémů'
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr2224cmpallrefMONOMS_logscale.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_lsh8_2224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Metoda LSH - Průměrný počet monomů', \
+'data_pam4_2224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Metoda PAM - Průměrný počet monomů', \
+'data_msm_2224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Metoda MSM - Průměrný počet monomů', \
+'data_ref_2224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Referenční - Průměrný počet monomů'
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr2224cmpallrefKEY_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh8_2224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda LSH - Průměrný čas výpočtu klíče', \
+'data_pam4_2224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda PAM - Průměrný čas výpočtu klíče', \
+'data_msm_2224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda MSM - Průměrný čas výpočtu klíče', \
+'data_ref_2224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Referenční - Průměrný čas výpočtu klíče'
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr2224cmpallrefALL_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh8_2224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Metoda LSH - Průměrný čas celého běhu skriptu', \
+'data_pam4_2224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Metoda PAM - Průměrný čas celého běhu skriptu', \
+'data_msm_2224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Metoda MSM - Průměrný čas celého běhu skriptu', \
+'data_ref_2224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Referenční - Průměrný čas výpočtu klíče'
+
+
+###############
+
+
+#set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+#set ylabel 'Čas [s]'
+#set style textbox opaque
+#set grid x
+#set grid y
+#set xlabel 'Počet polynomiálních systémů'
+
+
+
+#set title 'Graf vývoje počtu monomů'
+#set output 'sr3224cmpallrefMONOMS_logscale.pdf'
+#set ylabel 'Počet monomů v polynomu'
+
+#plot 'data_lsh8_3224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Metoda LSH - Průměrný počet monomů', \
+#'data_pam8_3224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Metoda PAM - Průměrný počet monomů', \
+#'data_msm_3224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Metoda MSM - Průměrný počet monomů'
+
+
+
+
+
+#set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+#set output 'sr3224cmpallrefKEY_logscale.pdf'
+#set ylabel 'Čas [s]'
+
+#plot 'data_lsh8_3224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda LSH - Průměrný čas výpočtu klíče', \
+#'data_pam8_3224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda PAM - Průměrný čas výpočtu klíče', \
+#'data_msm_3224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda MSM - Průměrný čas výpočtu klíče'
+
+
+
+
+#set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+#set output 'sr3224cmpallrefALL_logscale.pdf'
+#set ylabel 'Čas [s]'
+
+#plot 'data_lsh8_3224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Metoda LSH - Průměrný čas celého běhu skriptu', \
+#'data_pam8_3224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Metoda PAM - Průměrný čas celého běhu skriptu', \
+#'data_msm_3224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Metoda MSM - Průměrný čas celého běhu skriptu'
+
+
+
+
+###############
+
+
+set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+set ylabel 'Čas [s]'
+set style textbox opaque
+set grid x
+set grid y
+set xlabel 'Počet polynomiálních systémů'
+
+
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr1244cmpallrefMONOMS_logscale.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_lsh8_1244.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Metoda LSH - Průměrný počet monomů', \
+'data_pam8_1244.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Metoda PAM - Průměrný počet monomů', \
+'data_msm_1244.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Metoda MSM - Průměrný počet monomů', \
+'data_ref_1244.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Referenční - Průměrný počet monomů'
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr1244cmpallrefKEY_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh8_1244.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda LSH - Průměrný čas výpočtu klíče', \
+'data_pam8_1244.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda PAM - Průměrný čas výpočtu klíče', \
+'data_msm_1244.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda MSM - Průměrný čas výpočtu klíče', \
+'data_ref_1244.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Referenční - Průměrný čas výpočtu klíče'
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr1244cmpallrefALL_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh8_1244.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Metoda LSH - Průměrný čas celého běhu skriptu', \
+'data_pam8_1244.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Metoda PAM - Průměrný čas celého běhu skriptu', \
+'data_msm_1244.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Metoda MSM - Průměrný čas celého běhu skriptu', \
+'data_ref_1244.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Referenční - Průměrný čas výpočtu klíče'
+
+
+
+
+###############
+
+
+
+#set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+#set ylabel 'Čas [s]'
+#set style textbox opaque
+#set grid x
+#set grid y
+#set xlabel 'Počet polynomiálních systémů'
+
+
+
+#set title 'Graf vývoje počtu monomů'
+#set output 'sr2244cmpallrefMONOMS_logscale.pdf'
+#set ylabel 'Počet monomů v polynomu'
+
+#plot 'data_lsh8_2244.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Metoda LSH - Průměrný počet monomů', \
+#'data_msm_2244.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Metoda MSM - Průměrný počet monomů'
+
+
+
+
+#set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+#set output 'sr2244cmpallrefKEY_logscale.pdf'
+#set ylabel 'Čas [s]'
+
+#plot 'data_lsh8_2244.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda LSH - Průměrný čas výpočtu klíče', \
+#'data_msm_2244.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda MSM - Průměrný čas výpočtu klíče'
+
+
+
+
+#set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+#set output 'sr2244cmpallrefALL_logscale.pdf'
+#set ylabel 'Čas [s]'
+
+#plot 'data_lsh8_2244.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Metoda LSH - Průměrný čas celého běhu skriptu', \
+#'data_msm_2244.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Metoda MSM - Průměrný čas celého běhu skriptu'
+
+
+###############
+
+
+
+
+set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+set ylabel 'Čas [s]'
+set style textbox opaque
+set grid x
+set grid y
+set xlabel 'Počet polynomiálních systémů'
+
+
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr1424cmpallrefMONOMS_logscale.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_lsh8_1424.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Metoda LSH - Průměrný počet monomů', \
+'data_pam8_1424.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Metoda PAM - Průměrný počet monomů', \
+'data_msm_1424.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Metoda MSM - Průměrný počet monomů', \
+'data_ref_1424.txt'  using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Referenční - Průměrný počet monomů'
+
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr1424cmpallrefKEY_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh8_1424.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda LSH - Průměrný čas výpočtu klíče', \
+'data_pam8_1424.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda PAM - Průměrný čas výpočtu klíče', \
+'data_msm_1424.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda MSM - Průměrný čas výpočtu klíče', \
+'data_ref_1424.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Referenční - Průměrný čas výpočtu klíče'
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr1424cmpallrefALL_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh8_1424.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Metoda LSH - Průměrný čas celého běhu skriptu', \
+'data_pam8_1424.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Metoda PAM - Průměrný čas celého běhu skriptu', \
+'data_msm_1424.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Metoda MSM - Průměrný čas celého běhu skriptu', \
+'data_ref_1424.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Referenční - Průměrný čas výpočtu klíče'
+
+
+
+set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+set ylabel 'Čas [s]'
+set style textbox opaque
+set grid x
+set grid y
+set xlabel 'Počet polynomiálních systémů'
+
+set logscale x
+set yrange [-2:29]
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr1424cmpallrefKEY_logscalet.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh8_1424.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda LSH - Průměrný čas výpočtu klíče', \
+'data_pam8_1424.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda PAM - Průměrný čas výpočtu klíče', \
+'data_msm_1424.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda MSM - Průměrný čas výpočtu klíče', \
+'data_ref_1424.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Referenční - Průměrný čas výpočtu klíče'
+
+unset yrange
+
+
+
+###############
+
+
+set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+set ylabel 'Čas [s]'
+set style textbox opaque
+set grid x
+set grid y
+set xlabel 'Počet polynomiálních systémů'
+
+
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr1228cmpallrefMONOMS_logscale.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_lsh8_1228.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Metoda LSH - Průměrný počet monomů', \
+'data_pam8_1228.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Metoda PAM - Průměrný počet monomů', \
+'data_msm_1228.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Metoda MSM - Průměrný počet monomů', \
+'data_ref_1228.txt'  using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Referenční - Průměrný počet monomů'
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr1228cmpallrefKEY_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh8_1228.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda LSH - Průměrný čas výpočtu klíče', \
+'data_pam8_1228.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda PAM - Průměrný čas výpočtu klíče', \
+'data_msm_1228.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda MSM - Průměrný čas výpočtu klíče', \
+'data_ref_1228.txt'   using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Referenční - Průměrný čas výpočtu klíče'
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr1228cmpallrefALL_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh8_1228.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Metoda LSH - Průměrný čas celého běhu skriptu', \
+'data_pam8_1228.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Metoda PAM - Průměrný čas celého běhu skriptu', \
+'data_msm_1228.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Metoda MSM - Průměrný čas celého běhu skriptu', \
+'data_ref_1228.txt'   using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Referenční - Průměrný čas výpočtu klíče'
+
+
+
+
+###############
+
+###pouze num 8 u s1 - dpocotat nebo nedelat graf
+set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+set ylabel 'Čas [s]'
+set style textbox opaque
+set grid x
+set grid y
+set xlabel 'Počet polynomiálních systémů'
+
+
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr1248cmpallrefMONOMS_logscale.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_lsh8_1248.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Metoda LSH - Průměrný počet monomů', \
+'data_pam8_1248.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Metoda PAM - Průměrný počet monomů', \
+'data_ref_1248.txt'  using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Referenční - Průměrný počet monomů'
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr1248cmpallrefKEY_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh8_1248.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda LSH - Průměrný čas výpočtu klíče', \
+'data_pam8_1248.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda PAM - Průměrný čas výpočtu klíče' , \
+'data_ref_1248.txt'   using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Referenční - Průměrný čas výpočtu klíče'
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr1248cmpallrefALL_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh8_1248.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Metoda LSH - Průměrný čas celého běhu skriptu', \
+'data_pam8_1248.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Metoda PAM - Průměrný čas celého běhu skriptu', \
+'data_ref_1248.txt'   using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Referenční - Průměrný čas výpočtu klíče'
+
+
+
+
+##############
+
+###pouze num 8 - dpocotat nebo nedelat graf
+set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+set ylabel 'Čas [s]'
+set style textbox opaque
+set grid x
+set grid y
+set xlabel 'Počet polynomiálních systémů'
+
+
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr1444cmpallrefMONOMS_logscale.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_lsh8_1444.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Metoda LSH - Průměrný počet monomů', \
+'data_pam8_1444.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Metoda PAM - Průměrný počet monomů', \
+'data_msm_1444.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Metoda MSM - Průměrný počet monomů', \
+'data_ref_1444.txt'  using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Referenční - Průměrný počet monomů'
+
+
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr1444cmpallrefKEY_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh8_1444.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda LSH - Průměrný čas výpočtu klíče', \
+'data_pam8_1444.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda PAM - Průměrný čas výpočtu klíče', \
+'data_msm_1444.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Metoda MSM - Průměrný čas výpočtu klíče', \
+'data_ref_1444.txt'  using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Referenční - Průměrný čas výpočtu klíče'
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr1444cmpallrefALL_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_lsh8_1444.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Metoda LSH - Průměrný čas celého běhu skriptu', \
+'data_pam8_1444.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Metoda PAM - Průměrný čas celého běhu skriptu', \
+'data_msm_1444.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Metoda MSM - Průměrný čas celého běhu skriptu', \
+'data_ref_1444.txt'  using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Referenční - Průměrný čas výpočtu klíče'
+
+
+
+###############
+
+####pouze num 8 - dpocotat nebo nedelat graf
+#set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+#set ylabel 'Čas [s]'
+#set style textbox opaque
+#set grid x
+#set grid y
+#set xlabel 'Počet polynomiálních systémů'
+
+
+#set title 'Graf vývoje počtu monomů'
+#set output 'sr1428cmpallrefMONOMS.pdf'
+#set ylabel 'Počet monomů v polynomu'
+
+
+###############
+

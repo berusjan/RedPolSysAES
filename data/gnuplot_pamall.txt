@@ -1,0 +1,387 @@
+
+set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+set ylabel 'Čas [s]'
+set style textbox opaque
+set grid x
+set grid y
+set xlabel 'Počet polynomiálních systémů'
+
+set logscale x
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr1224pamallMONOMS_logscale.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_pam_1224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=1*klíč - Průměrný počet monomů', \
+'data_pam2_1224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=2*klíč - Průměrný počet monomů', \
+'data_pam4_1224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=4*klíč - Průměrný počet monomů', \
+'data_pam8_1224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=8*klíč - Průměrný počet monomů'
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr1224pamallKEY_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_pam_1224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=1*klíč - Průměrný čas výpočtu klíče', \
+'data_pam2_1224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=2*klíč - Průměrný čas výpočtu klíče', \
+'data_pam4_1224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=4*klíč - Průměrný čas výpočtu klíče', \
+'data_pam8_1224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=8*klíč - Průměrný čas výpočtu klíče' 
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr1224pamallALL_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_pam_1224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=1*klíč - Průměrný čas celého běhu skriptu', \
+'data_pam2_1224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=2*klíč - Průměrný čas celého běhu skriptu', \
+'data_pam4_1224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=4*klíč - Průměrný čas celého běhu skriptu', \
+'data_pam8_1224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=8*klíč - Průměrný čas celého běhu skriptu' 
+
+###############
+
+
+set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+set ylabel 'Čas [s]'
+set style textbox opaque
+set grid x
+set grid y
+set xlabel 'Počet polynomiálních systémů'
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr2224pamallMONOMS_logscale.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_pam_2224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=1*klíč - Průměrný počet monomů', \
+'data_pam2_2224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=2*klíč - Průměrný počet monomů', \
+'data_pam4_2224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=4*klíč - Průměrný počet monomů' ,\
+'data_pam8_2224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=8*klíč - Průměrný počet monomů' 
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr2224pamallKEY_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_pam_2224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=1*klíč - Průměrný čas výpočtu klíče', \
+'data_pam2_2224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=2*klíč - Průměrný čas výpočtu klíče', \
+'data_pam4_2224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=4*klíč - Průměrný čas výpočtu klíče', \
+'data_pam8_2224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=8*klíč - Průměrný čas výpočtu klíče' 
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr2224pamallALL_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_pam_2224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=1*klíč - Průměrný čas celého běhu skriptu', \
+'data_pam2_2224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=2*klíč - Průměrný čas celého běhu skriptu', \
+'data_pam4_2224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=4*klíč - Průměrný čas celého běhu skriptu', \
+'data_pam8_2224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=8*klíč - Průměrný čas celého běhu skriptu' 
+
+
+###############
+
+
+#set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+#set ylabel 'Čas [s]'
+#set style textbox opaque
+#set grid x
+#set grid y
+#set xlabel 'Počet polynomiálních systémů'
+
+
+
+#set title 'Graf vývoje počtu monomů'
+#set output 'sr3224pamallMONOMS_logscale.pdf'
+#set ylabel 'Počet monomů v polynomu'
+
+#plot 'data_pam_3224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=1*klíč - Průměrný počet monomů', \
+#'data_pam2_3224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=2*klíč - Průměrný počet monomů', \
+#'data_pam4_3224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=4*klíč - Průměrný počet monomů', \
+#'data_pam8_3224.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=8*klíč - Průměrný počet monomů'
+
+
+
+
+
+#set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+#set output 'sr3224pamallKEY_logscale.pdf'
+#set ylabel 'Čas [s]'
+
+#plot 'data_pam_3224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=1*klíč - Průměrný čas výpočtu klíče', \
+#'data_pam2_3224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=2*klíč - Průměrný čas výpočtu klíče', \
+#'data_pam4_3224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=4*klíč - Průměrný čas výpočtu klíče', \
+#'data_pam8_3224.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=8*klíč - Průměrný čas výpočtu klíče'
+
+
+
+
+#set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+#set output 'sr3224pamallALL_logscale.pdf'
+#set ylabel 'Čas [s]'
+
+#plot 'data_pam_3224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=1*klíč - Průměrný čas celého běhu skriptu', \
+#'data_pam2_3224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=2*klíč - Průměrný čas celého běhu skriptu', \
+#'data_pam4_3224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=4*klíč - Průměrný čas celého běhu skriptu', \
+#'data_pam8_3224.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=8*klíč - Průměrný čas celého běhu skriptu'
+
+
+
+
+###############
+
+
+set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+set ylabel 'Čas [s]'
+set style textbox opaque
+set grid x
+set grid y
+set xlabel 'Počet polynomiálních systémů'
+
+
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr1244pamallMONOMS_logscale.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_pam_1244.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=1*klíč - Průměrný počet monomů', \
+'data_pam2_1244.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=2*klíč - Průměrný počet monomů', \
+'data_pam4_1244.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=4*klíč - Průměrný počet monomů', \
+'data_pam8_1244.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=8*klíč - Průměrný počet monomů'
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr1244pamallKEY_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_pam_1244.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=1*klíč - Průměrný čas výpočtu klíče', \
+'data_pam2_1244.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=2*klíč - Průměrný čas výpočtu klíče', \
+'data_pam4_1244.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=4*klíč - Průměrný čas výpočtu klíče', \
+'data_pam8_1244.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=8*klíč - Průměrný čas výpočtu klíče'
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr1244pamallALL_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_pam_1244.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=1*klíč - Průměrný čas celého běhu skriptu', \
+'data_pam2_1244.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=2*klíč - Průměrný čas celého běhu skriptu', \
+'data_pam4_1244.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=4*klíč - Průměrný čas celého běhu skriptu', \
+'data_pam8_1244.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=8*klíč - Průměrný čas celého běhu skriptu'
+
+
+
+
+###############
+
+
+set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+set ylabel 'Čas [s]'
+set style textbox opaque
+set grid x
+set grid y
+set xlabel 'Počet polynomiálních systémů'
+
+
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr1424pamallMONOMS_logscale.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_pam_1424.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=1*klíč - Průměrný počet monomů', \
+'data_pam2_1424.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=2*klíč - Průměrný počet monomů', \
+'data_pam4_1424.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=4*klíč - Průměrný počet monomů', \
+'data_pam8_1424.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=8*klíč - Průměrný počet monomů'
+
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr1424pamallKEY_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_pam_1424.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=1*klíč - Průměrný čas výpočtu klíče', \
+'data_pam2_1424.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=2*klíč - Průměrný čas výpočtu klíče', \
+'data_pam4_1424.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=4*klíč - Průměrný čas výpočtu klíče', \
+'data_pam8_1424.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=8*klíč - Průměrný čas výpočtu klíče'
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr1424pamallALL_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_pam_1424.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=1*klíč - Průměrný čas celého běhu skriptu', \
+'data_pam2_1424.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=2*klíč - Průměrný čas celého běhu skriptu', \
+'data_pam4_1424.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=4*klíč - Průměrný čas celého běhu skriptu', \
+'data_pam8_1424.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=8*klíč - Průměrný čas celého běhu skriptu'
+
+
+
+
+###############
+
+
+set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+set ylabel 'Čas [s]'
+set style textbox opaque
+set grid x
+set grid y
+set xlabel 'Počet polynomiálních systémů'
+
+
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr1228pamallMONOMS_logscale.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_pam_1228.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=1*klíč - Průměrný počet monomů', \
+'data_pam2_1228.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=2*klíč - Průměrný počet monomů', \
+'data_pam4_1228.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=4*klíč - Průměrný počet monomů', \
+'data_pam8_1228.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=8*klíč - Průměrný počet monomů'
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr1228pamallKEY_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_pam_1228.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=1*klíč - Průměrný čas výpočtu klíče', \
+'data_pam2_1228.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=2*klíč - Průměrný čas výpočtu klíče', \
+'data_pam4_1228.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=4*klíč - Průměrný čas výpočtu klíče', \
+'data_pam8_1228.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=8*klíč - Průměrný čas výpočtu klíče'
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr1228pamallALL_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_pam_1228.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=1*klíč - Průměrný čas celého běhu skriptu', \
+'data_pam2_1228.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=2*klíč - Průměrný čas celého běhu skriptu', \
+'data_pam4_1228.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=4*klíč - Průměrný čas celého běhu skriptu', \
+'data_pam8_1228.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=8*klíč - Průměrný čas celého běhu skriptu'
+
+
+
+
+###############
+
+###pouze num 8 u s1 - dpocotat nebo nedelat graf
+set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+set ylabel 'Čas [s]'
+set style textbox opaque
+set grid x
+set grid y
+set xlabel 'Počet polynomiálních systémů'
+
+
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr1248pamallMONOMS_logscale.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_pam2_1248.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=2*klíč - Průměrný počet monomů', \
+'data_pam4_1248.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=4*klíč - Průměrný počet monomů', \
+'data_pam8_1248.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=8*klíč - Průměrný počet monomů'
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr1248pamallKEY_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_pam2_1248.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=2*klíč - Průměrný čas výpočtu klíče', \
+'data_pam4_1248.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=4*klíč - Průměrný čas výpočtu klíče', \
+'data_pam8_1248.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=8*klíč - Průměrný čas výpočtu klíče'
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr1248pamallALL_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_pam2_1248.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=2*klíč - Průměrný čas celého běhu skriptu', \
+'data_pam4_1248.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=4*klíč - Průměrný čas celého běhu skriptu', \
+'data_pam8_1248.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=8*klíč - Průměrný čas celého běhu skriptu'
+
+
+
+##############
+
+###pouze num 8 - dpocotat nebo nedelat graf
+set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+set ylabel 'Čas [s]'
+set style textbox opaque
+set grid x
+set grid y
+set xlabel 'Počet polynomiálních systémů'
+
+
+
+
+set title 'Graf vývoje počtu monomů'
+set output 'sr1444pamallMONOMS_logscale.pdf'
+set ylabel 'Počet monomů v polynomu'
+
+plot 'data_pam2_1444.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=2*klíč - Průměrný počet monomů', \
+'data_pam4_1444.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=4*klíč - Průměrný počet monomů', \
+'data_pam8_1444.txt' using 1:2:($2-$3):($2+$3) with yerrorbars notitle, '' using 1:2 with lines title 'Polynomů=8*klíč - Průměrný počet monomů'
+
+
+
+
+
+set title 'Graf vývoje času potřebného k výpočtu tajného klíče'
+set output 'sr1444pamallKEY_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_pam2_1444.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=2*klíč - Průměrný čas výpočtu klíče', \
+'data_pam4_1444.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=4*klíč - Průměrný čas výpočtu klíče', \
+'data_pam8_1444.txt' using 1:14:($14-$15):($14+$15) with yerrorbars notitle, '' using 1:14 with lines title 'Polynomů=8*klíč - Průměrný čas výpočtu klíče', \
+
+
+
+set title 'Graf vývoje času potřebného k přípravě ps a k výpočtu tajného klíče'
+set output 'sr1444pamallALL_logscale.pdf'
+set ylabel 'Čas [s]'
+
+plot 'data_pam2_1444.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=2*klíč - Průměrný čas celého běhu skriptu', \
+'data_pam4_1444.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=4*klíč - Průměrný čas celého běhu skriptu', \
+'data_pam8_1444.txt' using 1:16:($16-$17):($16+$17) with yerrorbars notitle, '' using 1:16 with lines title 'Polynomů=8*klíč - Průměrný čas celého běhu skriptu'
+
+
+
+###############
+
+####pouze num 8 - dpocotat nebo nedelat graf
+#set terminal pdf font '/usr/openwin/lib/X11/fonts/TrueType/Arial-Bold.ttf,8'
+#set ylabel 'Čas [s]'
+#set style textbox opaque
+#set grid x
+#set grid y
+#set xlabel 'Počet polynomiálních systémů'
+
+
+#set title 'Graf vývoje počtu monomů'
+#set output 'sr1428pamallMONOMS.pdf'
+#set ylabel 'Počet monomů v polynomu'
+
+
+###############
+
+
