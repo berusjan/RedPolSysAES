@@ -1,0 +1,1067 @@
+MERENI VYPOCTU LSH2
++generovani dat
+
+SR(2,4,2,4) - 32bit klic:
+==========================================
+SR(2,4,2,4)
+=======================
+ --num 128
+===
+ --num 128, pok 10 --ml --LSH --sep
+Cipher: SR(2,4,2,4)
+Time of "ps_key_vars": 0:02:06
+pred ml: 13:53:16.253605
+allpolys_vec.shape (4096, 112723)
+candidate_pairs 1084163
+sort start: 14:08:25.506217
+LSH end: 16:16:09.273947
+LSH end: 16:16:09.336467
+LSH end: 16:16:09.475772
+Time of "ps_reduce_ml": 2:24:37
+==
+psets0
+Variables: 32
+Polynomials: 64
+Avg length of polys: 8465
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 6:22:12
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 319.76 GB.
+Time of "keys": 0:00:00
+==
+psets1
+Variables: 32
+Polynomials: 128
+Avg length of polys: 9298
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 0:42:56
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 319.76 GB.
+Time of "keys": 0:00:00
+==
+psets2
+Variables: 32
+Polynomials: 256
+Avg length of polys: 10117
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 1:45:15
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 319.76 GB.
+Time of "keys": 0:00:00
+===
+ --num 128, pok 12 --ml --LSH --sep
+Cipher: SR(2,4,2,4)
+Time of "ps_key_vars": 0:02:17
+pred ml: 01:10:49.741408
+allpolys_vec.shape (4096, 112723)
+candidate_pairs 1109719
+sort start: 01:26:19.880324
+LSH end: 03:32:20.879187
+LSH end: 03:32:20.938757
+LSH end: 03:32:21.066540
+Time of "ps_reduce_ml": 2:22:01
+==
+psets0
+Variables: 32
+Polynomials: 64
+Avg length of polys: 9284
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 3:47:19
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 481.59 GB.
+Time of "keys": 0:00:00
+==
+psets1
+Variables: 32
+Polynomials: 128
+Avg length of polys: 9775
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 0:22:12
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 481.59 GB.
+Time of "keys": 0:00:00
+==
+psets2
+Variables: 32
+Polynomials: 256
+Avg length of polys: 10268
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 0:21:09
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 481.59 GB.
+Time of "keys": 0:00:00
+===
+ --num 128, pok 13 --ml --LSH --sep
+Cipher: SR(2,4,2,4)
+Time of "ps_key_vars": 0:02:12
+pred ml: 08:05:49.429707
+allpolys_vec.shape (4096, 112723)
+candidate_pairs 1148833
+sort start: 08:22:21.363192
+LSH end: 10:38:37.891149
+LSH end: 10:38:37.954975
+LSH end: 10:38:38.087537
+Time of "ps_reduce_ml": 2:33:19
+==
+psets0
+Variables: 32
+Polynomials: 64
+Avg length of polys: 9410
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 8:42:04
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 674.77 GB.
+Time of "keys": 0:00:00
+==
+psets1
+Variables: 32
+Polynomials: 128
+Avg length of polys: 9982
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 0:16:33
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 674.77 GB.
+Time of "keys": 0:00:00
+==
+psets2
+Variables: 32
+Polynomials: 256
+Avg length of polys: 10503
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 1:24:07
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 674.77 GB.
+Time of "keys": 0:00:00
+===
+ --num 128, pok 16 --ml --LSH --sep
+Cipher: SR(2,4,2,4)
+Time of "ps_key_vars": 0:02:10
+pred ml: 08:59:47.896112
+allpolys_vec.shape (4096, 112723)
+candidate_pairs 1061224
+sort start: 09:16:07.173160
+LSH end: 11:20:16.292372
+LSH end: 11:20:16.354693
+LSH end: 11:20:16.477941
+Time of "ps_reduce_ml": 2:20:59
+==
+psets0
+Variables: 32
+Polynomials: 64
+Avg length of polys: 9744
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 1:31:40
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 75.05 GB.
+Time of "keys": 0:00:00
+==
+psets1
+Variables: 32
+Polynomials: 128
+Avg length of polys: 10196
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 2:38:04
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 489.79 GB.
+Time of "keys": 0:00:00
+==
+## chybi ps2
+=======================
+ --num 96
+===
+ --num 96, pok 10 --ml --LSH --sep
+Cipher: SR(2,4,2,4)
+Time of "ps_key_vars": 0:01:33
+pred ml: 21:42:27.098324
+allpolys_vec.shape (3072, 112723)
+candidate_pairs 598452
+sort start: 21:54:46.965117
+LSH end: 23:04:04.811974
+LSH end: 23:04:04.876119
+LSH end: 23:04:05.013527
+Time of "ps_reduce_ml": 1:22:05
+==
+psets0
+Variables: 32
+Polynomials: 64
+Avg length of polys: 9503
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 4:15:04
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 194.6 GB.
+Time of "keys": 0:00:00
+==
+psets1
+Variables: 32
+Polynomials: 128
+Avg length of polys: 10145
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 3:19:24
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 194.6 GB.
+Time of "keys": 0:00:00
+==
+## chybi ps2
+===
+ --num 96, pok 13 --ml --LSH --sep
+Cipher: SR(2,4,2,4)
+Time of "ps_key_vars": 0:01:32
+pred ml: 08:32:27.745365
+allpolys_vec.shape (3072, 112723)
+candidate_pairs 655648
+sort start: 08:44:38.898583
+LSH end: 10:05:50.531221
+LSH end: 10:05:50.591775
+LSH end: 10:05:50.728823
+Time of "ps_reduce_ml": 1:33:50
+==
+psets0
+Variables: 32
+Polynomials: 64
+Avg length of polys: 9502
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 4:00:24
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 302.33 GB.
+Time of "keys": 0:00:00
+==
+psets1
+Variables: 32
+Polynomials: 128
+Avg length of polys: 9960
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 4:17:54
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 324.84 GB.
+Time of "keys": 0:00:00
+==
+psets2
+Variables: 32
+Polynomials: 256
+Avg length of polys: 10589
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 8:18:21
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 859.53 GB.
+Time of "keys": 0:00:00
+===
+ --num 96, pok 14 --ml --LSH --sep
+Cipher: SR(2,4,2,4)
+Time of "ps_key_vars": 0:01:36
+pred ml: 02:44:38.121655
+allpolys_vec.shape (3072, 112723)
+candidate_pairs 647844
+sort start: 02:56:25.033958
+LSH end: 04:15:30.443525
+LSH end: 04:15:30.512214
+LSH end: 04:15:30.657847
+Time of "ps_reduce_ml": 1:31:19
+==
+psets0
+Variables: 32
+Polynomials: 64
+Avg length of polys: 9066
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 1:47:30
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 231.35 GB.
+Time of "keys": 0:00:00
+==
+psets1
+Variables: 32
+Polynomials: 128
+Avg length of polys: 9631
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 0:30:33
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 231.35 GB.
+Time of "keys": 0:00:00
+==
+psets2
+Variables: 32
+Polynomials: 256
+Avg length of polys: 10377
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 1:04:05
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 231.35 GB.
+Time of "keys": 0:00:00
+===
+ --num 96, pok 15 --ml --LSH --sep
+Cipher: SR(2,4,2,4)
+Time of "ps_key_vars": 0:01:34
+pred ml: 07:39:45.005564
+allpolys_vec.shape (3072, 112723)
+candidate_pairs 623513
+sort start: 07:51:12.271689
+LSH end: 09:07:36.664187
+LSH end: 09:07:36.729696
+LSH end: 09:07:36.872940
+Time of "ps_reduce_ml": 1:29:14
+==
+psets0
+Variables: 32
+Polynomials: 64
+Avg length of polys: 9340
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 1:19:16
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 137.53 GB.
+Time of "keys": 0:00:00
+==
+psets1
+Variables: 32
+Polynomials: 128
+Avg length of polys: 9766
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 1:47:15
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 534.14 GB.
+Time of "keys": 0:00:00
+==
+psets2
+Variables: 32
+Polynomials: 256
+Avg length of polys: 10284
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 14:13:54
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 534.14 GB.
+Time of "keys": 0:00:00
+===
+ --num 96, pok 16 --ml --LSH --sep
+Cipher: SR(2,4,2,4)
+Time of "ps_key_vars": 0:01:37
+pred ml: 02:31:07.490643
+allpolys_vec.shape (3072, 112723)
+candidate_pairs 634472
+sort start: 02:43:02.726829
+LSH end: 04:00:46.057507
+LSH end: 04:00:46.124710
+LSH end: 04:00:46.268235
+Time of "ps_reduce_ml": 1:30:06
+==
+psets0
+Variables: 32
+Polynomials: 64
+Avg length of polys: 10105
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 8:32:57
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 846.7 GB.
+Time of "keys": 0:00:00
+==
+psets1
+Variables: 32
+Polynomials: 128
+Avg length of polys: 10363
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 7:28:33
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 846.7 GB.
+Time of "keys": 0:00:00
+==
+psets2
+Variables: 32
+Polynomials: 256
+Avg length of polys: 10738
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 1:09:17
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 846.7 GB.
+Time of "keys": 0:00:00
+=======================
+ --num 64
+===
+ --num 64, pok 11 --ml --LSH --sep
+Cipher: SR(2,4,2,4)
+Time of "ps_key_vars": 0:01:02
+pred ml: 15:45:16.584958
+allpolys_vec.shape (2048, 112723)
+candidate_pairs 286092
+sort start: 15:52:54.036687
+LSH end: 16:25:24.911959
+LSH end: 16:25:24.976729
+LSH end: 16:25:25.120365
+Time of "ps_reduce_ml": 0:41:08
+==
+psets0
+Variables: 32
+Polynomials: 64
+Avg length of polys: 9368
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 1:03:21
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 121.16 GB.
+Time of "keys": 0:00:00
+==
+psets1
+Variables: 32
+Polynomials: 128
+Avg length of polys: 9990
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 1:04:58
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 124.35 GB.
+Time of "keys": 0:00:00
+==
+psets2
+Variables: 32
+Polynomials: 256
+Avg length of polys: 10717
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 2:24:50
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 435.85 GB.
+Time of "keys": 0:00:00
+===
+ --num 64, pok 12 --ml --LSH --sep
+Cipher: SR(2,4,2,4)
+Time of "ps_key_vars": 0:01:03
+pred ml: 21:00:42.310016
+allpolys_vec.shape (2048, 112723)
+candidate_pairs 282944
+sort start: 21:08:38.097333
+LSH end: 21:41:12.442092
+LSH end: 21:41:12.504271
+LSH end: 21:41:12.644140
+Time of "ps_reduce_ml": 0:41:31
+==
+psets0
+Variables: 32
+Polynomials: 64
+Avg length of polys: 9811
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 0:39:35
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 111.52 GB.
+Time of "keys": 0:00:00
+==
+psets1
+Variables: 32
+Polynomials: 128
+Avg length of polys: 10486
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 0:43:59
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 112.39 GB.
+Time of "keys": 0:00:00
+==
+psets2
+Variables: 32
+Polynomials: 256
+Avg length of polys: 11109
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 3:37:54
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 602.99 GB.
+Time of "keys": 0:00:00
+===
+ --num 64, pok 13 --ml --LSH --sep
+Cipher: SR(2,4,2,4)
+Time of "ps_key_vars": 0:01:04
+pred ml: 02:44:49.750769
+allpolys_vec.shape (2048, 112723)
+candidate_pairs 274660
+sort start: 02:53:16.781466
+LSH end: 03:25:00.810669
+LSH end: 03:25:00.872021
+LSH end: 03:25:00.995991
+Time of "ps_reduce_ml": 0:40:34
+==
+psets0
+Variables: 32
+Polynomials: 64
+Avg length of polys: 8769
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 2:46:24
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 464.86 GB.
+Time of "keys": 0:00:00
+==
+psets1
+Variables: 32
+Polynomials: 128
+Avg length of polys: 9918
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 2:45:24
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 574.56 GB.
+Time of "keys": 0:00:00
+==
+## chybi ps2
+===
+ --num 64, pok 14 --ml --LSH --sep
+Cipher: SR(2,4,2,4)
+Time of "ps_key_vars": 0:01:02
+pred ml: 14:46:20.158738
+allpolys_vec.shape (2048, 112723)
+candidate_pairs 289615
+sort start: 14:53:50.316119
+LSH end: 15:26:44.960347
+LSH end: 15:26:45.032952
+LSH end: 15:26:45.500287
+Time of "ps_reduce_ml": 0:41:26
+==
+psets0
+Variables: 32
+Polynomials: 64
+Avg length of polys: 9993
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 0:06:53
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 28.45 GB.
+Time of "keys": 0:00:00
+==
+psets1
+Variables: 32
+Polynomials: 128
+Avg length of polys: 10776
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 0:07:50
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 28.68 GB.
+Time of "keys": 0:00:00
+==
+psets2
+Variables: 32
+Polynomials: 256
+Avg length of polys: 11326
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 1:26:09
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 164.22 GB.
+Time of "keys": 0:00:00
+===
+ --num 64, pok 16 --ml --LSH --sep
+Cipher: SR(2,4,2,4)
+Time of "ps_key_vars": 0:01:04
+pred ml: 08:14:57.885297
+allpolys_vec.shape (2048, 112723)
+candidate_pairs 293607
+sort start: 08:23:14.553479
+LSH end: 08:56:35.354279
+LSH end: 08:56:35.410102
+LSH end: 08:56:35.528645
+Time of "ps_reduce_ml": 0:42:00
+==
+psets0
+Variables: 32
+Polynomials: 64
+Avg length of polys: 9361
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 3:48:18
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 405.66 GB.
+Time of "keys": 0:00:00
+==
+psets1
+Variables: 32
+Polynomials: 128
+Avg length of polys: 10031
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 1:31:58
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 405.66 GB.
+Time of "keys": 0:00:00
+==
+psets2
+Variables: 32
+Polynomials: 256
+Avg length of polys: 10688
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 0:59:09
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 405.66 GB.
+Time of "keys": 0:00:00
+=======================
+ --num 48
+===
+ --num 48, pok 10 --ml --LSH --sep
+Cipher: SR(2,4,2,4)
+Time of "ps_key_vars": 0:00:48
+pred ml: 15:17:16.013885
+allpolys_vec.shape (1536, 112723)
+candidate_pairs 152650
+sort start: 15:22:54.794643
+LSH end: 15:40:51.467593
+LSH end: 15:40:51.544047
+LSH end: 15:40:51.721600
+Time of "ps_reduce_ml": 0:24:26
+==
+psets0
+Variables: 32
+Polynomials: 64
+Avg length of polys: 10757
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 1:57:18
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 108.44 GB.
+Time of "keys": 0:00:00
+==
+psets1
+Variables: 32
+Polynomials: 128
+Avg length of polys: 11117
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 0:49:50
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 108.44 GB.
+Time of "keys": 0:00:00
+==
+psets2
+Variables: 32
+Polynomials: 256
+Avg length of polys: 11554
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 3:07:43
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 358.27 GB.
+Time of "keys": 0:00:00
+===
+ --num 48, pok 12 --ml --LSH --sep
+Cipher: SR(2,4,2,4)
+Time of "ps_key_vars": 0:00:49
+pred ml: 21:37:36.967920
+allpolys_vec.shape (1536, 112723)
+candidate_pairs 158980
+sort start: 21:43:47.903637
+LSH end: 22:03:12.641820
+LSH end: 22:03:12.713772
+LSH end: 22:03:12.853111
+Time of "ps_reduce_ml": 0:25:59
+==
+psets0
+Variables: 32
+Polynomials: 64
+Avg length of polys: 10817
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 2:44:20
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 248.65 GB.
+Time of "keys": 0:00:00
+==
+psets1
+Variables: 32
+Polynomials: 128
+Avg length of polys: 11354
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 3:33:18
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 989.44 GB.
+Time of "keys": 0:00:00
+==
+psets2
+Variables: 32
+Polynomials: 256
+Avg length of polys: 11775
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 2:15:55
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 989.44 GB.
+Time of "keys": 0:00:00
+===
+ --num 48, pok 14 --ml --LSH --sep
+Cipher: SR(2,4,2,4)
+Time of "ps_key_vars": 0:00:47
+pred ml: 15:54:45.564027
+allpolys_vec.shape (1536, 112723)
+candidate_pairs 147799
+sort start: 16:00:29.232225
+LSH end: 16:17:42.561091
+LSH end: 16:17:42.626117
+LSH end: 16:17:42.757349
+Time of "ps_reduce_ml": 0:23:48
+==
+psets0
+Variables: 32
+Polynomials: 64
+Avg length of polys: 10988
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 0:39:38
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 57.79 GB.
+Time of "keys": 0:00:00
+==
+psets1
+Variables: 32
+Polynomials: 128
+Avg length of polys: 11334
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 0:42:31
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 59.63 GB.
+Time of "keys": 0:00:00
+==
+psets2
+Variables: 32
+Polynomials: 256
+Avg length of polys: 11710
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 0:18:42
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 59.63 GB.
+Time of "keys": 0:00:00
+===
+ --num 48, pok 15 --ml --LSH --sep
+Cipher: SR(2,4,2,4)
+Time of "ps_key_vars": 0:00:49
+pred ml: 18:00:18.962573
+allpolys_vec.shape (1536, 112723)
+candidate_pairs 157913
+sort start: 18:06:17.630111
+LSH end: 18:25:14.588807
+LSH end: 18:25:14.660871
+LSH end: 18:25:14.807669
+Time of "ps_reduce_ml": 0:25:47
+==
+psets0
+Variables: 32
+Polynomials: 64
+Avg length of polys: 10932
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 0:25:15
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 78.63 GB.
+Time of "keys": 0:00:00
+==
+psets1
+Variables: 32
+Polynomials: 128
+Avg length of polys: 11359
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 0:57:40
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 285.61 GB.
+Time of "keys": 0:00:00
+==
+## chybi ps2
+===
+ --num 48, pok 16 --ml --LSH --sep
+Cipher: SR(2,4,2,4)
+Time of "ps_key_vars": 0:00:48
+pred ml: 03:15:24.142208
+allpolys_vec.shape (1536, 112723)
+candidate_pairs 158814
+sort start: 03:21:26.783609
+LSH end: 03:40:22.408979
+LSH end: 03:40:22.476532
+LSH end: 03:40:22.605541
+Time of "ps_reduce_ml": 0:25:21
+==
+psets0
+Variables: 32
+Polynomials: 64
+Avg length of polys: 11000
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 3:10:44
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 107.8 GB.
+Time of "keys": 0:00:00
+==
+psets1
+Variables: 32
+Polynomials: 128
+Avg length of polys: 11280
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 3:04:03
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 108.45 GB.
+Time of "keys": 0:00:00
+==
+psets2
+Variables: 32
+Polynomials: 256
+Avg length of polys: 11614
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 2:25:41
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 113.64 GB.
+Time of "keys": 0:00:00
+=======================
+ --num 32
+===
+ --num 32, pok 10 --ml --LSH --sep
+Cipher: SR(2,4,2,4)
+Time of "ps_key_vars": 0:00:34
+pred ml: 12:21:52.267263
+allpolys_vec.shape (1024, 112723)
+candidate_pairs 69761
+sort start: 12:25:48.806351
+LSH end: 12:33:35.764307
+LSH end: 12:33:35.827998
+LSH end: 12:33:35.957237
+Time of "ps_reduce_ml": 0:12:24
+==
+psets0
+Variables: 32
+Polynomials: 64
+Avg length of polys: 10656
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 11:55:42
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 235.57 GB.
+Time of "keys": 0:00:00
+==
+## chybi ps1 a 2
+===
+ --num 32, pok 12 --ml --LSH --sep
+Cipher: SR(2,4,2,4)
+Time of "ps_key_vars": 0:00:39
+pred ml: 01:43:53.659196
+allpolys_vec.shape (1024, 112723)
+candidate_pairs 66835
+sort start: 01:47:59.560124
+LSH end: 01:55:38.593006
+LSH end: 01:55:38.664199
+LSH end: 01:55:38.805709
+Time of "ps_reduce_ml": 0:12:26
+==
+psets0
+Variables: 32
+Polynomials: 64
+Avg length of polys: 10413
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 3:48:03
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 735.42 GB.
+Time of "keys": 0:00:00
+==
+psets1
+Variables: 32
+Polynomials: 128
+Avg length of polys: 11264
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 4:16:47
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 810.27 GB.
+Time of "keys": 0:00:00
+==
+## chybi ps2
+===
+ --num 32, pok 14 --ml --LSH --sep
+Cipher: SR(2,4,2,4)
+Time of "ps_key_vars": 0:00:35
+pred ml: 09:00:11.154430
+allpolys_vec.shape (1024, 112723)
+candidate_pairs 69976
+sort start: 09:04:04.644165
+LSH end: 09:12:02.649906
+LSH end: 09:12:02.724877
+LSH end: 09:12:02.862848
+Time of "ps_reduce_ml": 0:12:32
+==
+psets0
+Variables: 32
+Polynomials: 64
+Avg length of polys: 11040
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 2:31:32
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 116.27 GB.
+Time of "keys": 0:00:00
+==
+psets1
+Variables: 32
+Polynomials: 128
+Avg length of polys: 11642
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 2:36:38
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 117.6 GB.
+Time of "keys": 0:00:00
+==
+psets2
+Variables: 32
+Polynomials: 256
+Avg length of polys: 12111
+Avg length of monomials: 5
+Solver: F4
+Sep magma ml
+Time of "magma_ml": 6:32:28
+A Gröbner basis computed. Attempting to obtain the variety.
+A valid key found. (This key matches the original key.)
+Used memory: 773.72 GB.
+Time of "keys": 0:00:00
+===
+
+=======================
+ --num 16
+===
+##pok 10,11,12 magma crashed; 13,14timeout
+
+
