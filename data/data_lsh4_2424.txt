@@ -1,0 +1,9 @@
+#ps_count monom_count_mean monom_count_stdev make_ps_mean make_ps_stdev reduce_ps_mean reduce_ps_stdev prepare_ps_mean prepare_ps_stdev make_gb_mean make_gb_stdev make_variety_mean make_variety_stdev calculate_keys_mean calculate_keys_stdev time_all_mean time_all_stdev memory_mean memory_stedv
+#SR(n,4,2,4) - 32bit klic:
+#SR(2,4,2,4)
+128 9812.75 383.8 131.25 4.57 8714 0 8845.25 335.89 3596.25 0 0 0.0 3596.25 3983.73 12441.5 3800.72 491477.5 145124.83
+96 9973 292.26 94.4 2.07 5358.8 0 5453.2 264.1 12523.8 0 0 0.0 12523.8 9584.27 17977 9600.49 426326 269420.74
+64 10240.2 373.39 63 1.0 2479.8 0 2542.8 31.7 4489.8 0 0 0.0 4489.8 3553.95 7032.6 3537.51 249128 230907.13
+48 11288.8 101.01 48.2 0.84 1504.2 0 1552.4 56.42 6568.4 0 0 0.0 6568.4 4935.5 8120.8 4972.83 310314 389283.66
+32 11453 267.29 37 2.83 749 0 786 1.41 12402.5 0 0 0.0 12402.5 4249.0 13188.5 4247.59 463935 489791.65
+
