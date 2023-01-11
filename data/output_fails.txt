@@ -1,0 +1,43 @@
+MĚŘENÍ LSH
+
+SR(3,2,4,4) - 32bit klic:
+- 96,64,48 - too many 0-inversions
+- po vygenerování méně systémů došla paměť při dalších výpočtech
+
+
+SR(3,4,2,4) - 32bit klic:
+- docházela paměť
+
+
+
+SR(2,4,4,4) - 64bit klic:
+- 16 - too many 0-inversions, Magma crashed
+
+
+
+SR(2,2,2,8) - 32bit klic:
+- 96 - Exception raised by child process, full disc
+
+
+
+SR(2,4,2,8) - 64bit klic:
+- 96 - Exception raised by child process, timeout - ps
+- 16 - Exception raised by child process, timeout - ps
+- začala docházet paměť při výpočtech
+
+
+SR(2,2,4,8) - 64bit klic:
+- 96 - Exception raised by child process, timeout - ps
+- 32 - Exception raised by child process
+
+
+
+SR(2,4,4,8) - 128bit klic:
+- při všech experimentech došla paměť dříve než se vygeneroval systém
+- je to zvláštní, protože když jsem se pokoušela měřit 2 rundu AES před pár měsíci, tak jen výpočet původních systémů jsem nechala běžet skoro dva dny a vše bylo v pořádku.... nyní jsem musela výpočet zastavit už po pár hodinách, abych server zase nezahltila - možná jsem jich tenkrát generovala méně (1 nebo 2) a nyní jsem jich chtěla 8 nebo 16
+- pokusila jsem se tedy dosadit K bitů klíče hned při vytváření polynomů, abych je měla jednodušší - při odstraňování pomocných proměnných však výpočet nových polynomů dosazené proměnné zase přepsal
+- pak jsem tedy dosazovala proměnné klíče v momentě, kdy se z jednotlivých systémů odstranily pomocné proměnné - zde však opět paměť začala docházet
+- nechala jsem si při výpočtech udělat kontrolní výpisy a zkoumala celý průběh výpočtu - zdá se, že se výpočet nějak "zasekl" v momentě mezi vytvářením polynomů a odstraňováním pomocných proměnných - podle kontrolních výpisů se systémy vytvořily, ale k odstraňování pomocných proměnných už nedošlo
+
+
+
